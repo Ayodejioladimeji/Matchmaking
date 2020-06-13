@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="match.css">
+    <link rel="stylesheet" href="animate.css">
+    <link href='https://fonts.googleapis.com/css?family=Akronim' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+
+    <script>
+        $(document).ready(function () {
+            $("#flip").click(function () {
+                $("#panel").slideToggle("slow");
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#eye-click").click(function () {
+                $("#eye").toggleClass("fa-eye-slash");
+
+                var input = $("#password");
+                if (input.attr("type") === "password") {
+                    input.attr("type", "text");
+                }
+                else {
+                    input.attr("type", "password");
+                }
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <!--The section of the container of the page-->
+
+    <div id="container">
+
+        <header>
+
+            <!--The section of the head1-->
+
+            <div class="head1">
+                <input type="checkbox" id="check">
+                <label for="check">
+                    <i class="fa fa-bars" id="btn"></i>
+                    <i class="fa fa-times-circle" id="cancel"></i>
+                </label>
+
+                <div class="sidebar">
+                    <h3>MATCHMAKING</h3>
+                    <marquee>Welcome to MatchMaking...</marquee>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+                        <li><a href="#"><i class="fa fa-question-circle"></i>About</a></li>
+                        <li><a href="#"><i class="fa fa-gear"></i>My Account</a></li>
+                        <li><a href="#"><i class="fa fa-film"></i>Gallery</a></li>
+                        <li><a href="#"><i class="fa fa-envelope"></i>Contact</a></li>
+                        <li><a href="#"><i class="fa fa-handshake-o"></i>Membership</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!--The section of the head2-->
+
+            <div class="head2">
+                <h2>MatchMaking</h2>
+                <p>...For Happy Marriages</p>
+            </div>
+
+
+
+            <!--The section of the head3-->
+
+            <div class="head3">
+
+                <input type="checkbox" id="chec">
+                <label for="chec">
+                    <i class="fa fa-qrcode" id="bt"></i>
+                    <i class="fa fa-times-circle" id="cance"></i>
+                </label>
+
+                <div class="rightbar">
+                    <h6>Login Below to continue</h6>
+                    <!--<p style="color:yellow;font-family:allura;font-size:20px;margin-top:20px;">Your Soul mate is waiting for you...</p>-->
+
+                    <div id="emailerror">
+                        <i class="fa fa-envelope-o">&nbsp;Email</i>
+                        <input type="text" name="email" id="email" placeholder="Enter your e-mail">
+                    </div>
+
+                    <div id="passworderror">
+                        <i class="fa fa-lock">&nbsp;Password</i>
+                        <input type="password" name="password" id="password" placeholder="Enter your password">
+                        <a href="#" id="eye-click">
+                            <i class="fa fa-eye" id="eye"></i>
+                        </a>
+                        <p class="forgot"><a href="#">Forgot password ?</a></p>
+                    </div>
+
+                    <div class="submit">
+                        <input type="submit" name="submit" value="Login">
+                    </div>
+                    <p>Not a member ? <span><a href="#">JOIN US</a></span></p>
+
+
+                    <div class="i">
+                        <i class="fa fa-instagram" style="color:red"></i>
+                        <i class="fa fa-twitter" style="color:blue"></i>
+                        <i class="fa fa-whatsapp" style="color:green"></i>
+                        <i class="fa fa-facebook" style="color:blue"></i>
+                        <i class="fa fa-youtube" style="color:red"></i>
+                        <i class="fa fa-telegram" style="color:#9c27b0"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+        <!--The end of the header of the page-->
+
+
+
+        <!--The section of the main of the page-->
+
+        <div class="main">
+
+
+            <!--The section of the left-->
+            <div class="left">
+                <h1>find your</h1>
+                <h2>True L<i class="fa fa-heart animated infinite pulse faster"></i>ove</h2>
+
+                <p>our dating platform is like a breath of fresh air<br>
+                    Clean and trendy design with ready to use features<br>
+                    we are sure you will love it
+                </p>
+
+            </div>
+
+
+            <!--The section of the right-->
+            <div class="right">
+
+                <div id="flip"><i class="fa fa-heartbeat"></i>
+
+                    <div class="marq">
+                        <marquee>Click on the heartbeat to continue</marquee>
+                    </div>
+
+                </div>
+
+                <div id="panel">
+                    <label>I am a</label>
+                    <select id="sel">
+                        <option value="Gender">Woman</option>
+                        <option value="Gender">Man</option>
+                    </select>
+
+                    <label>Looking for a</label>
+                    <select id="sel">
+                        <option value="Gender">Woman</option>
+                        <option value="Gender">Man</option>
+                    </select>
+
+
+
+
+                    <label>Age</label>
+                    <select id="sele">
+                        <option value="Gender">From</option>
+                        <option value="Gender">20</option>
+                        <option value="Gender">21</option>
+                        <option value="Gender">22</option>
+                        <option value="Gender">23</option>
+                        <option value="Gender">24</option>
+                        <option value="Gender">25</option>
+                        <option value="Gender">26</option>
+                        <option value="Gender">27</option>
+                        <option value="Gender">28</option>
+                        <option value="Gender">29</option>
+                        <option value="Gender">30</option>
+                        <option value="Gender">31</option>
+                        <option value="Gender">32</option>
+                        <option value="Gender">33</option>
+                        <option value="Gender">34</option>
+                        <option value="Gender">35</option>
+                        <option value="Gender">36</option>
+                        <option value="Gender">37</option>
+                        <option value="Gender">38</option>
+                        <option value="Gender">39</option>
+                        <option value="Gender">40</option>
+                        <option value="Gender">41</option>
+                        <option value="Gender">42</option>
+                        <option value="Gender">43</option>
+                        <option value="Gender">44</option>
+                        <option value="Gender">45</option>
+                        <option value="Gender">46</option>
+                        <option value="Gender">47</option>
+                        <option value="Gender">48</option>
+                        <option value="Gender">49</option>
+                        <option value="Gender">50</option>
+                    </select>
+
+
+
+                    <select id="selec">
+                        <option value="Gender">From</option>
+                        <option value="Gender">20</option>
+                        <option value="Gender">21</option>
+                        <option value="Gender">22</option>
+                        <option value="Gender">23</option>
+                        <option value="Gender">24</option>
+                        <option value="Gender">25</option>
+                        <option value="Gender">26</option>
+                        <option value="Gender">27</option>
+                        <option value="Gender">28</option>
+                        <option value="Gender">29</option>
+                        <option value="Gender">30</option>
+                        <option value="Gender">31</option>
+                        <option value="Gender">32</option>
+                        <option value="Gender">33</option>
+                        <option value="Gender">34</option>
+                        <option value="Gender">35</option>
+                        <option value="Gender">36</option>
+                        <option value="Gender">37</option>
+                        <option value="Gender">38</option>
+                        <option value="Gender">39</option>
+                        <option value="Gender">40</option>
+                        <option value="Gender">41</option>
+                        <option value="Gender">42</option>
+                        <option value="Gender">43</option>
+                        <option value="Gender">44</option>
+                        <option value="Gender">45</option>
+                        <option value="Gender">46</option>
+                        <option value="Gender">47</option>
+                        <option value="Gender">48</option>
+                        <option value="Gender">49</option>
+                        <option value="Gender">50</option>
+                    </select>
+
+
+
+                    <select id="selecc">
+                        <option value="1">Country</option>
+                        <option value="2">Nigeria</option>
+                    </select>
+
+                    <input type="submit" name="submit" value="Seek your partner">
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <!--The end of the main of the page-->
+
+
+
+        <!--The section of the content-->
+
+        <div class="content">
+
+            <!--The section of the content1-->
+            <div class="content1">
+                <div class="one">
+                    <a href="#">
+                        <i class="fa fa-compass animated pulse slow infinite"></i>
+                        <h3>simple to use</h3>
+                        <p>simple steps to follow to <br>have a matching connection</p>
+                    </a>
+                </div>
+            </div>
+
+
+            <!--The section of the content2-->
+            <div class="content2">
+                <div class="two">
+                    <a href="#">
+                        <i class="fa fa-comments-o animated pulse slow infinite"></i>
+                        <h3>smart matching</h3>
+                        <p>create connections <br>with users that are like you</p>
+                    </a>
+                </div>
+            </div>
+
+
+            <!--The section of the content3-->
+            <div class="content3">
+                <div class="three">
+                    <a href="#">
+                        <i class="fa fa-clock-o animated pulse slow infinite"></i>
+                        <h3>filter very fast</h3>
+                        <p>Don't waste your time,<br> find only what you're interested in</p>
+                    </a>
+                </div>
+            </div>
+
+
+            <!--The section of the content4-->
+            <div class="content4">
+                <div class="four">
+                    <a href="#">
+                        <i class="fa fa-gift animated pulse slow infinite"></i>
+                        <h3>cool community</h3>
+                        <p>Matchmaking <br>is full of cool members</p>
+                    </a>
+                </div>
+            </div>
+
+
+            <!--The section of the content5-->
+            <div class="content5">
+                <h1>how does it work?</h1>
+                <span class="span"> &#x1F60D;</span>
+                <h2>Search</h2>
+                <input type="searcn" name="search" id="search" placeholder="Search for your soulmate">
+                <i class="fa fa-search"></i>
+                <h5>The simple steps to follow to have a great experience using <span
+                        style="color:yellow;font-family: 'Allura';font-size:25px">Matchmaking...</span><br>
+                    All you have to do is follow your gut and your heart!</h5>
+            </div>
+
+        </div>
+        <!--The end of the content of the page-->
+
+
+
+        <!--The section of the class of the page-->
+        <div class="class">
+            <div class="class-o">
+                <div class="class1">
+                    <p>It is a story of hope<br>perseverance<br>and<br> an incredible<br>love<br> that cross
+                        borders<br>languages<br>
+                        and <br>all differences...</p>
+
+                    <button class="join-us animated pulse slow infinite">Join Us Today</button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--The middle section of the page-->
+        <div class="middle">
+
+            <div class="middle-o">
+                <h1>Tired of being alone ?</h1>
+            </div>
+
+            <div class="middle-left">
+                <div class="one-01">
+                    <h1>01</h1>
+                </div>
+                <div class="join">
+                    <h2>Join and<br> find your love</h2>
+                </div>
+
+            </div>
+
+            <div class="middle-center">
+                <div class="one-01">
+                    <h1>02</h1>
+                </div>
+                <div class="join">
+                    <h2>add information<br>about yourself</h2>
+                </div>
+            </div>
+
+            <div class="middle-right">
+                <div class="one-01">
+                    <h1>03</h1>
+                </div>
+                <div class="join">
+                    <h2>get in-touch<br>and be happy</h2>
+                </div>
+            </div>
+
+
+
+            <!--The middle content of the page-->
+            <div class="middle-content">
+                <div class="middle-content0">
+
+                    <div class="middle-content1">
+                        <div class="top"></div>
+
+                        <div class="bottom">
+                            <img src="images/22.jpeg">
+                            <h1>LOVE</h1>
+                        </div>
+
+                    </div>
+
+                    <div class="middle-content2">
+                        <div class="top"></div>
+
+                        <div class="bottom">
+                            <img src="images/da.jpg">
+                            <h1>PASSION</h1>
+                        </div>
+
+                    </div>
+
+                    <div class="middle-content3">
+                        <div class="top"></div>
+
+                        <div class="bottom">
+                            <img src="images/66.jpeg">
+                            <h1>FEELINGS</h1>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="matched">
+                    <h1>MatchMaking...<i class="fa fa-check-circle animated pulse infinite slow"></i></h1>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!--The main content of the page-->
+        <div class="main-content">
+
+            <div class="main-left">
+                <h1>Trust and safety</h1>
+                <i class="fa fa-registered"></i>
+                <p>We are powered by the well known and secure platform....<br>
+                    We care about your privacy and make sure your data is super safe....
+                </p>
+
+                <button class="details" name="details">See More Details...<i class="fa fa-sort"></i></button>
+            </div>
+
+            <div class="main-right">
+                <h2>Live the story</h2>
+                <p>It is time for a new generation of theme...<br>Matchmaking is written to match users requests over
+                    time....</p>
+                <div class="btn">
+                    <button class="art">Art & Love</button>
+                    <button class="attraction">Attraction</button>
+                    <button class="entertainment">Entertainment</button><br>
+                    <button class="love">Love Stories</button>
+                    <button class="life">Lifestyle</button><br>
+                    <button class="hobbies">Hobbies</button>
+                    <button class="passion">Passion</button>
+                    <button class="health">Health</button>
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+
+            <div class="footer0">
+                <div class="foot1">
+                    <h1>Protection</h1>
+                    <i class="fa fa-certificate animated pulse infinite fast"></i>
+                    <p>We believe that real happiness starts <br>
+                        with a truly like-minded match,<br> which is why our passion is helping<br>
+                        compatible singles connect.
+                        <br>then Matchmaking is always there for you.</p>
+                </div>
+                <div class="foot2">
+                    <h1>verification</h1>
+                    <i class="fa fa-check-square-o animated pulse infinite fast"></i>
+                    <p>We validate every profile to ensure<br>
+                        that we introduce you to interesting, <br>
+                        like-minded Nigerian singles.<br> Not only are the majority of our
+                        <br>single professionals aged 30-55, <br>
+                        but they are all committed to finding<br>
+                        genuine love through Matchmaking.<br></p>
+                </div>
+                <div class="foot3">
+                    <h1>attention</h1>
+                    <i class="fa fa-bomb animated pulse infinite fast"></i>
+                    <p>We offer you the Matchmaking experience<br>
+                        Matching couples based on compatibility, <br>
+                        giving relationship advice, and removing<br>non-active users<br>
+                        We want you to meet singles who are as<br>
+                        serious about the search for love as you are.</p>
+                </div>
+            </div>
+
+            <div class="footer1">
+                <h1>Our mission</h1>
+                <p>To provide you with the most suitable match...</p>
+
+                <p class="find">
+                    Find your match in the most popular cities across the globe<br>
+                    Be adventurous and find someone from other parts of the globe<br>
+                    you never know where love is hiding...</p>
+
+                <p class="sub">Subscribe to our<br>
+                    <span>NEWSLETTER</span></p>
+
+                <input type="text" name="news" placeholder="Email">
+                <input type="button" value="Subscribe" name="subscribe">
+
+            </div>
+
+            <div class="footer2">
+                <h1>Contact Information</h1>
+                <ul>
+                    <li><a href="#"><i class="fa fa-map-marker"></i>12, Okejigbo Abeokuta Ogun-State Nigeria.</a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i>Matchmaking@gmail.com</a></li>
+                    <li><a href="#"><i class="fa fa-phone"></i>+234-090-1666-3916</a></li>
+                </ul>
+
+                <div class="i">
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-twitter" style="color:blue"></i>
+                    <i class="fa fa-whatsapp" style="color:green"></i>
+                    <i class="fa fa-facebook" style="color:blue"></i>
+                    <i class="fa fa-youtube" style="color:red"></i>
+                    <i class="fa fa-telegram" style="color:#9c27b0"></i>
+                </div>
+
+                <p class="layo">Designed By : <span style="color:yellow">L</span>
+                    <span style="color:red">A</span><span style="color:purple">Y</span><span
+                        style="color:green">O</span>
+                    <span style="color:yellow">B</span><span style="color:orange">R</span>
+                    <span style="color:violet">I</span><span style="color:pink">G</span><span
+                        style="color:yellow">H</span><span style="color:#9c27b0">T</span></p>
+            </div>
+
+            <div class="footer3">
+                This is the footer 1
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
