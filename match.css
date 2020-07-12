@@ -16,8 +16,8 @@ body{
 
 
                         /*The section of the header*/
-                        
-                        
+
+
 header{
     background:#330e63eb;
     width:100%;
@@ -29,7 +29,7 @@ header{
 
 
                             /*The section of the head1*/
-                            
+
 .head1{
     width:15%;
     float:left;
@@ -134,10 +134,10 @@ header{
 
 
                             /*The section of the head2*/
-                            
+
 
 .head2{
-    /*background:#555;*/
+    /* background:#555; */
     padding:40px;
     width:70%;
     float:left;
@@ -155,8 +155,8 @@ header{
     font-style:italic;
     box-shadow:0 0 20px,0 0 30px,0 0 40px;
     text-shadow:3px 3px #260650eb;
-    
-    
+
+
     /*Animation*/
     animation-duration: 6s;
     animation-delay:30s;
@@ -166,14 +166,14 @@ header{
     font-size:16px;
     font-style:italic;
     margin-top:20px;
-    
+
 }
 
 
 
 
                                 /*The section of the head3*/
-                                
+
 
 .head3{
     width:15%;
@@ -310,23 +310,23 @@ header{
     font-size:12px;
     font-family: cursive;
     font-style:italic;
-    
+
 }
 .fa-envelope-o{
     color:white;
     margin-top:30px;
     margin-left:50px;
-    font-size:18px;
+    font-size:15px;
 }
 .fa-lock{
     color:white;
     margin-top:20px;
     margin-left:50px;
-    font-size:18px;
+    font-size:15px;
 }
 .fa-eye{
     position:absolute;
-    bottom:43%;
+    bottom:44%;
     right:10%;
     color:white;
 }
@@ -335,10 +335,10 @@ header{
 
 
                             /*The section of the main*/
-                            
-                            
+
+
 .main{
-    background:url(b.jpg);
+    background:url(images/b.jpg);
     background-size:cover;
     /*background-position:center;*/
     width:100%;
@@ -378,7 +378,7 @@ header{
     color:#27036dcc;
     letter-spacing:3px;
     margin-bottom:50px;
-    
+
 }
 
 .fa-heart{
@@ -506,6 +506,24 @@ input[type=submit]{
 }
 
 
+#top{
+    background:red;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    position:fixed;
+    top:70%;
+    right:5%;
+    z-index:222222222;
+    outline:none;
+    display:none;
+}
+#top .fa-chevron-up{
+    color:white;
+    font-size:15px;
+    cursor:pointer;
+}
+
 
 
                             /*The section of the content of the page*/
@@ -534,7 +552,7 @@ input[type=submit]{
     padding-left:50px;
     transition:all 3s;
     padding-top:30px;
-    
+
 }
 
 .one{
@@ -560,7 +578,7 @@ input[type=submit]{
     padding-left:50px;
     transition:all 3s;
     padding-top:30px;
-    
+
 }
 
 .two{
@@ -613,7 +631,7 @@ input[type=submit]{
     padding-left:50px;
     transition:all 3s;
     padding-top:30px;
-    
+
 }
 
 .four{
@@ -635,6 +653,7 @@ input[type=submit]{
     float:left;
     height:500px;
     margin-top:300px;
+    position:relative;
 }
 
 .content5 h1{
@@ -683,8 +702,8 @@ input[type=submit]{
 }
 .fa-search{
     position:absolute;
-    top:1870px;
-    right:36%;
+    bottom:136px;
+    right:35%;
     transform:translate(-50%,-50%);
     color:white;
     cursor:pointer;
@@ -713,7 +732,7 @@ input[type=submit]{
     text-align:center;
     font-family: 'Allura';
     font-size:20px;
-    
+
 }
 
 .two .fa-comments-o{
@@ -737,7 +756,7 @@ input[type=submit]{
     text-align:center;
     font-family: 'Allura';
     font-size:20px;
-    
+
 }
 
 .three .fa-clock-o{
@@ -761,7 +780,7 @@ input[type=submit]{
     text-align:center;
     font-family: 'Allura';
     font-size:20px;
-    
+
 }
 
 
@@ -786,19 +805,19 @@ input[type=submit]{
     text-align:center;
     font-family: 'Allura';
     font-size:20px;
-    
+
 }
 
 
 
 
                             /*The section of the class*/
-                            
-                            
+
+
 .class{
     height:700px;
     width:100%;
-    background:url(ddd.jpg);
+    background:url(images/ddd.jpg);
     /*background-position:center;*/
     background-size:cover;
 }
@@ -847,12 +866,12 @@ input[type=submit]{
 
 
                             /*The middle div section of the page*/
-                            
-                            
+
+
 .middle{
     width:100%;
     height:1000px;
-    background:url(bb.jpg);
+    background:url(images/bb.jpg);
     background-size:cover;
     background-position:center;
 }
@@ -987,8 +1006,8 @@ input[type=submit]{
 
 
                             /*The middle content section*/
-                            
-                            
+
+
 .middle-content{
     width:100%;
     height:1100px;
@@ -1121,10 +1140,10 @@ input[type=submit]{
 
 
                             /*section of the main-content*/
-                            
-                            
+
+
 .main-content{
-    background:url(a.jpg);
+    background:url(images/a.jpg);
     width:100%;
     height:700px;
     background-position:center;
@@ -1231,7 +1250,7 @@ button:hover{
     margin-left:80px;
     margin-top:100px;
     transition:all 0.5s;
-    
+
 }
 .attraction{
     background:#0c6724;
@@ -1337,15 +1356,15 @@ button:hover{
 
 
                                 /*The section of the footer*/
-                                
+
 
 footer{
-    background:url(jj.jpg);
+    background:url(images/jj.jpg);
     /*background-position:center;*/
     background-size:cover;
     width:100%;
     height:1130px;
-    
+
 }
 
 
@@ -1464,20 +1483,21 @@ footer{
     margin-top:-150px;
     background:#27036d9e;
     border-radius:20px;
-    
+
 }
 
 
 /*The section of the footer 1 2 3*/
 
 .footer1{
-    width:30%;
+    width:50%;
     height:430px;
     float:left;
     background:#1e053eeb;
+    position:relative;
 }
 .footer2{
-    width:40%;
+    width:50%;
     height:430px;
     float:left;
     background:#1e053eeb;
@@ -1487,7 +1507,10 @@ footer{
     height:430px;
     float:left;
     background:#1e053eeb;
+    display:none;
 }
+
+
 
 .footer1 h1{
     color:white;
@@ -1514,9 +1537,9 @@ footer{
     color:white;
     display:block;
     border-radius:25px;
-    margin-left:30px;
+    margin-left:120px;
     margin-top:10px;
-    width:80%;
+    width:60%;
 }
 
 .footer1 input[type=button]{
@@ -1526,15 +1549,16 @@ footer{
     border:1px solid yellow;
     border-radius:25px;
     position:absolute;
-    top:5515px;
-    left:16%;
-    width:10%;
+/*     bottom:27px; */
+    right:23%;
+    width:20%;
     font-weight:bold;
     text-transform:uppercase;
     outline:none;
     cursor:pointer;
-    
+
 }
+
 .footer1 .find{
     font-size:18px;
     color:white;
@@ -1556,8 +1580,8 @@ footer{
     text-align:center;
     color:white;
     font-family:cursive;
-    font-size:35px;
-    margin-top:30px;
+    font-size:34px;
+    margin-top:38px;
     text-shadow:2px 2px yellow;
 }
 
@@ -1603,24 +1627,26 @@ footer{
 .footer2 .i{
     color:red;
     letter-spacing:15px;
-    margin-left:130px;
+    margin-left:100px;
     font-size:20px;
-    margin-top:10px;
+    margin-top:20px;
 }
 
 .footer2 .layo{
     color:white;
     text-align:center;
     font-size:20px;
-    margin-top:20px;
+    margin-top:30px;
+    margin-right:200px;
 }
 
 
-@media screen and (min-width:769px){
+
+/* @media screen and (min-width:769px){
     body{
         display:none;
     }
-}
+} */
 
 
 
@@ -1631,30 +1657,30 @@ footer{
                                         width:100%;
                                         height:5580px;
                                         /* padding:25px; */
-                                       
+
                                     }
-                                    
-                                    
+
+
                                                             /*The section of the header*/
-                                                            
-                                                            
+
+
                                     header{
                                         width:100%;
                                         height:100px;
 
                                     }
-                                    
-                                    
-                                    
+
+
+
                                                                 /*The section of the head1*/
-                                                                
+
                                     .head1{
                                         width:15%;
                                         float:left;
                                         position:fixed;
                                         z-index:1111111;
                                     }
-                                    
+
                                     .sidebar{
                                         position:fixed;
                                         background:#1e053eeb;
@@ -1673,7 +1699,7 @@ footer{
                                         padding:30px 0;
                                         transition:all 0.5s;
                                     }
-                                    
+
                                     .sidebar marquee{
                                         padding:10px;
                                         margin-bottom:5px;
@@ -1681,13 +1707,13 @@ footer{
                                         font-style:italic;
                                         color:yellow;
                                         font-size:13px
-                                    
+
                                     }
-                                    
+
                                     .sidebar ul{
                                         list-style-type: none;
                                     }
-                                    
+
                                     .sidebar ul li a{
                                         color:white;
                                         line-height:60px;
@@ -1700,20 +1726,20 @@ footer{
                                         border-top:1px solid #999;
                                         font-family:allura;
                                     }
-                                    
+
                                     .sidebar ul li a:hover{
                                         padding-left:50px;
                                     }
-                                    
+
                                     .sidebar i{
                                         padding-right:15px;
                                         color:yellow;
                                     }
-                                    
+
                                     #check{
                                         display:none;
                                     }
-                                    
+
                                     #btn{
                                         position:absolute;
                                         top:25px;
@@ -1725,7 +1751,7 @@ footer{
                                         cursor:pointer;
                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                     }
-                                    
+
                                     #cancel{
                                         position:absolute;
                                         top:45px;
@@ -1739,7 +1765,7 @@ footer{
                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                         /*background:purple;*/
                                     }
-                                    
+
                                     #check:checked ~ .sidebar{
                                         left:0;
                                     }
@@ -1750,13 +1776,13 @@ footer{
                                         left:175px;
                                         top:8px;
                                     }
-                                    
-                                    
-                                    
-                                    
+
+
+
+
                                                                 /*The section of the head2*/
-                                                                
-                                    
+
+
                                     .head2{
                                         padding:20px;
                                         width:90%;
@@ -1775,34 +1801,34 @@ footer{
                                         font-style:italic;
                                         box-shadow:0 0 20px,0 0 30px,0 0 40px;
                                         text-shadow:3px 3px #260650eb;
-                                        
-                                        
+
+
                                         /*Animation*/
                                         animation-duration: 6s;
                                         animation-delay:30s;
                                     }
-                                    
+
                                     .head2 p{
                                         color:yellow;
                                         font-size:15px;
                                         font-style:italic;
                                         margin-top:1px;
                                         font-family:amita;
-                                    
+
                                     }
-                                    
-                                    
-                                    
-                                    
+
+
+
+
                                                                     /*The section of the head3*/
-                                                                    
-                                    
+
+
                                     .head3{
                                         width:15%;
                                         float:left;
                                         margin-top:0px;
                                     }
-                                    
+
                                     .rightbar{
                                         position:fixed;
                                         background:#1e053eeb;
@@ -1812,7 +1838,7 @@ footer{
                                         height:450px;
                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                         z-index:111111;
-                                    
+
                                     }
                                     .rightbar h6{
                                         color:rgb(249, 133, 115);
@@ -1831,24 +1857,24 @@ footer{
                                         font-family:Allura;
                                         font-size:20px;
                                     }
-                                    
+
                                     .rightbar span a{
                                         text-decoration: none;
                                         color:blue;
                                         text-shadow:white;
                                         margin-top:10px;
                                     }
-                                    
+
                                     .rightbar .i{
                                         letter-spacing: 10px;
                                         margin-top:30px;
                                         margin-left:90px;
                                     }
-                                    
+
                                     #chec{
                                         display:none;
                                     }
-                                    
+
                                     #bt{
                                         position:absolute;
                                         top:25px;
@@ -1860,7 +1886,7 @@ footer{
                                         cursor:pointer;
                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                     }
-                                    
+
                                     #cance{
                                         position:absolute;
                                         top:15px;
@@ -1875,7 +1901,7 @@ footer{
                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                         /*background:purple;*/
                                     }
-                                    
+
                                     #chec:checked ~ .rightbar{
                                         right:0;
                                     }
@@ -1887,7 +1913,7 @@ footer{
                                         opacity:1;
                                         position:fixed;
                                     }
-                                    
+
                                     .rightbar input[type=text]{
                                         padding:10px;
                                         width:80%;
@@ -1909,7 +1935,7 @@ footer{
                                         color:blue;
                                         margin-top:0px;
                                     }
-                                    
+
                                     .submit input[type=submit]{
                                         background:none;
                                         padding:0px;
@@ -1927,7 +1953,7 @@ footer{
                                         background:blue;
                                         color:white;
                                     }
-                                    
+
                                     .forgot a{
                                         color:white;
                                         /*text-align:center;*/
@@ -1936,7 +1962,7 @@ footer{
                                         font-size:12px;
                                         font-family: cursive;
                                         font-style:italic;
-                                        
+
                                     }
                                     .fa-envelope-o{
                                         color:white;
@@ -1958,14 +1984,14 @@ footer{
                                         right:12%;
                                         color:blue;
                                     }
-                                    
+
 
                             /*The section of the main*/
-                            
-                            
+
+
                             /*The section of the main*/
-                            
-                            
+
+
                             .main{
                                 background:url(images/aa.jpg);
                                 background-size:cover;
@@ -1973,10 +1999,10 @@ footer{
                                 width:100%;
                                 height:900px;
                             }
-                            
-                            
+
+
                             /*The section of the main left*/
-                            
+
                             .main .left{
                                 background:#330e6375;
                                 width:100%;
@@ -1997,7 +2023,7 @@ footer{
                                 text-shadow:2px 2px white;
                                 margin-top:70px;
                             }
-                            
+
                             .left h2{
                                 text-align:center;
                                 font-family: 'Akronim';
@@ -2007,10 +2033,10 @@ footer{
                                 color:#27036dcc;
                                 letter-spacing:3px;
                                 margin-bottom:55px;
-                                
-                                
+
+
                             }
-                            
+
                             .fa-heart{
                                 color:red;
                                 font-size:30px;
@@ -2025,11 +2051,11 @@ footer{
                                 text-shadow:none;
 /*                                 text-shadow:1px 1px yellow */
                             }
-                            
-                            
-                            
+
+
+
                             /*The section of the main right*/
-                            
+
                             .right{
                                 background:#330e6375;
                                 background-position:center;
@@ -2041,8 +2067,8 @@ footer{
                                 margin-right:0px;
                                 border-radius:0px;
                             }
-                            
-                            
+
+
                             #flip {
                                 margin-top:0px;
                                 text-align: center;
@@ -2057,13 +2083,13 @@ footer{
                                 border-radius:20px;
                                 margin-bottom:10px;
                             }
-                            
+
                             #panel {
                               display: none;
                               color:white;
                             }
-                            
-                            
+
+
                             #panel label{
                                 display:block;
                                 margin-left:115px;
@@ -2082,7 +2108,7 @@ footer{
                                 color:white;
                                 margin-bottom:6px;
                             }
-                            
+
                             #sele{
                                 width:35%;
                                 padding:10px;
@@ -2104,7 +2130,7 @@ footer{
                                 float:left;
                                 margin-bottom:30px
                             }
-                            
+
                             #selecc{
                                 width:70%;
                                 padding:10px;
@@ -2115,7 +2141,7 @@ footer{
                                 color:white;
                                 margin-bottom:20px;
                             }
-                            
+
                             input[type=submit]{
                                 width:70%;
                                 padding:1px;
@@ -2131,8 +2157,8 @@ footer{
                                 text-shadow:1px 1px red;
                                 cursor:pointer;
                             }
-                            
-                            
+
+
                             .marq{
                                 background:#330e6375;
                                 width:50%;
@@ -2150,24 +2176,24 @@ footer{
                                 height:1600px;
                                 background:url(images/12.png);
                             }
-                            
-                            
-                             
+
+
+
                             /*The section of the content1*/
-                            
+
                             .content1{
                                 width:100%;
                                 float:left;
                                 height:350px;
-                            
+
                             }
                             .one a:hover{
                                 padding-left:0px;
                                 transition:none;
                                 padding-top:0px;
-                                
+
                             }
-                       
+
                             .one{
                                 border-radius:25px;
                                 width:80%;
@@ -2177,10 +2203,10 @@ footer{
                                 margin-top:50px;
                                 border:2px dashed yellow
                             }
-                            
-                            
+
+
                             /*The section of the content2*/
-                            
+
                             .content2{
 /*                                 background:#330e63c7; */
                                 width:100%;
@@ -2191,7 +2217,7 @@ footer{
                                 padding-left:0px;
                                 transition:none;
                                 padding-top:0px;
-                                
+
                             }
 
                             .two{
@@ -2203,10 +2229,10 @@ footer{
                                 margin-top:0px;
                                 border:2px dashed yellow
                             }
-                            
-                            
+
+
                             /*The section of the content3*/
-                            
+
                             .content3{
                                 background:#330e6378;
                                 width:100%;
@@ -2217,7 +2243,7 @@ footer{
                                 padding-left:0px;
                                 transition:none;
                                 padding-top:0px;
-                                
+
                             }
 
                             .three{
@@ -2229,10 +2255,10 @@ footer{
                                 margin-top:0px;
                                 border:2px dashed yellow
                             }
-                            
-                            
+
+
                             /*The section of the content4*/
-                            
+
                             .content4{
                                 background:#330e6378;
                                 width:100%;
@@ -2243,7 +2269,7 @@ footer{
                                 padding-left:0px;
                                 transition:none;
                                 padding-top:0px;
-                                
+
                             }
 
                             .four{
@@ -2255,15 +2281,15 @@ footer{
                                 margin-top:0px;
                                 border:2px dashed yellow
                             }
-                            
-                            
+
+
                             .one .fa-compass{
                                 color:white;
                                 font-size:70px;
                                 margin:20px 0 0 275px;
                                 text-shadow:1px 1px yellow;
                             }
-                            
+
                             .one h3{
                                 color:white;
                                 font-size:35px;
@@ -2273,15 +2299,15 @@ footer{
                                 margin-bottom:10px;
                                 text-shadow:3px 3px #330e63eb;
                             }
-                            
+
                             .one p{
                                 color:white;
                                 text-align:center;
                                 font-family: 'Allura';
                                 font-size:20px;
-                                
+
                             }
-                            
+
                             .two .fa-comments-o{
                                 color:white;
                                 font-size:65px;
@@ -2302,9 +2328,9 @@ footer{
                                 text-align:center;
                                 font-family: 'Allura';
                                 font-size:20px;
-                                
+
                             }
-                            
+
                             .three .fa-clock-o{
                                 color:white;
                                 font-size:65px;
@@ -2325,17 +2351,17 @@ footer{
                                 text-align:center;
                                 font-family: 'Allura';
                                 font-size:20px;
-                                
+
                             }
-                            
-                            
+
+
                             .four .fa-gift{
                                 color:white;
                                 font-size:65px;
                                 margin:20px 0 0 276px;
                                 text-shadow:1px 1px yellow;
                             }
-                            
+
                             .four h3{
                               color:white;
                                 font-size:35px;
@@ -2345,27 +2371,27 @@ footer{
                                 margin-bottom:10px;
                                 text-shadow:3px 3px #330e63eb;
                             }
-                            
+
                             .four p{
                                 color:white;
                                 text-align:center;
                                 font-family: 'Allura';
-                                font-size:20px;   
+                                font-size:20px;
                             }
-                            
-                            
-                            
+
+
+
                             /*The section of the content5*/
-                            
+
                             .content5{
                                 background:#330e63eb;
                                 width:100%;
                                 float:left;
                                 height:350px;
-                            
+                                position:relative;
                                 margin-top:0px;
                             }
-                            
+
                             .content5 h1{
                                 text-align:center;
                                 color:#b51474fc;
@@ -2398,9 +2424,9 @@ footer{
                                 font-size:55px;
                                 border-radius:55px;
                                 box-shadow:0 0 20px yellow,0 0 40px yellow,0 0 80px yellow,0 0 100px yellow;
-                                
+
                             }
-                            
+
                             #search{
                                 padding:10px;
                                 width:70%;
@@ -2415,18 +2441,18 @@ footer{
                             }
                             .fa-search{
                                 position:absolute;
-                                top:2470px;
-                                right:16%;
+                                bottom:104px;
+                                right:17%;
                                 transform:translate(-50%,-50%);
                                 color:white;
                                 cursor:pointer;
                                 font-size:18px;
                                 text-shadow:1px 1px red;
-                            }                            
+                            }
 
                                                     /*The section of the class*/
-                            
-                            
+
+
 .class{
     height:700px;
     width:100%;
@@ -2478,13 +2504,13 @@ footer{
 
 
 
- 
+
 
 
 
                             /*The middle div section of the page*/
-                            
-                            
+
+
 .middle{
     width:100%;
     height:1600px;
@@ -2521,7 +2547,7 @@ footer{
     margin-top:10px;
     margin-left:0px;
     border-bottom:1px solid yellow;
-    
+
 }
 
 .middle-left .one-01{
@@ -2636,8 +2662,8 @@ footer{
 
 
                             /*The middle content section*/
-                            
-                            
+
+
 .middle-content{
     width:100%;
     height:1640px;
@@ -2776,8 +2802,8 @@ footer{
 
 
                             /*section of the main-content*/
-                            
-                            
+
+
 .main-content{
     background:url(images/a.jpg);
     width:100%;
@@ -2880,7 +2906,7 @@ button:hover{
     margin-left:26px;
     margin-top:80px;
     transition:all 0.5s;
-    
+
 }
 .attraction{
     background:#0c6724;
@@ -2986,7 +3012,7 @@ button:hover{
 
 
                                 /*The section of the footer*/
-                                
+
 
 footer{
     background:url(images/jj.jpg);
@@ -3119,7 +3145,7 @@ footer{
     background:#27036d9e;
     border-radius:20px;
     height:160px
-    
+
 }
 
 
@@ -3183,14 +3209,14 @@ footer{
     border:1px solid yellow;
     border-radius:25px;
     position:absolute;
-    top:335px;
-    left:60%;
-    width:30%;
+    bottom:51px;
+    left:70%;
+    width:20%;
     font-weight:bold;
     text-transform:uppercase;
     outline:none;
     cursor:pointer;
-    
+
 }
 .footer1 .find{
     font-size:18px;
@@ -3260,9 +3286,10 @@ footer{
 .footer2 .i{
     color:red;
     letter-spacing:20px;
-    margin-left:170px;
+    margin-left:185px;
     font-size:30px;
-    margin-top:50px;
+    margin-top:40px;
+    margin-right:0;
 }
 
 .footer2 .layo{
@@ -3271,41 +3298,42 @@ footer{
     font-size:20px;
     margin-top:20px;
     font-family:amita;
+    margin-right:0;
 }
-                                }                                    
-                                
+                                }
+
 
 
 
                                 /* THE MEDIA QUERY */
-                                @media screen and (max-width:425px){
-    
+                                @media screen and (max-width:425px) and (min-width:376px){
+
 
                                     #container{
                                         width:100%;
                                         height:5580px;
                                     }
-                                    
-                                    
+
+
                                                             /*The section of the header*/
-                                                            
-                                                            
+
+
                                     header{
                                         width:100%;
                                         height:100px;
 
                                     }
-                                    
-                                    
-                                    
+
+
+
                                                                 /*The section of the head1*/
-                                                                
+
                                     .head1{
                                         width:15%;
                                         float:left;
                                         position:fixed;
                                     }
-                                    
+
                                     .sidebar{
                                         position:fixed;
                                         background:#1e053eeb;
@@ -3324,7 +3352,7 @@ footer{
                                         padding:30px 0;
                                         transition:all 0.5s;
                                     }
-                                    
+
                                     .sidebar marquee{
                                         padding:10px;
                                         margin-bottom:5px;
@@ -3332,13 +3360,13 @@ footer{
                                         font-style:italic;
                                         color:yellow;
                                         font-size:13px
-                                    
+
                                     }
-                                    
+
                                     .sidebar ul{
                                         list-style-type: none;
                                     }
-                                    
+
                                     .sidebar ul li a{
                                         color:white;
                                         line-height:60px;
@@ -3351,20 +3379,20 @@ footer{
                                         border-top:1px solid #999;
                                         font-family:allura;
                                     }
-                                    
+
                                     .sidebar ul li a:hover{
                                         padding-left:50px;
                                     }
-                                    
+
                                     .sidebar i{
                                         padding-right:15px;
                                         color:yellow;
                                     }
-                                    
+
                                     #check{
                                         display:none;
                                     }
-                                    
+
                                     #btn{
                                         position:absolute;
                                         top:25px;
@@ -3376,7 +3404,7 @@ footer{
                                         cursor:pointer;
                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                     }
-                                    
+
                                     #cancel{
                                         position:absolute;
                                         top:45px;
@@ -3390,7 +3418,7 @@ footer{
                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                         /*background:purple;*/
                                     }
-                                    
+
                                     #check:checked ~ .sidebar{
                                         left:0;
                                     }
@@ -3401,13 +3429,13 @@ footer{
                                         left:175px;
                                         top:8px;
                                     }
-                                    
-                                    
-                                    
-                                    
+
+
+
+
                                                                 /*The section of the head2*/
-                                                                
-                                    
+
+
                                     .head2{
                                         padding:20px;
                                         width:90%;
@@ -3426,35 +3454,35 @@ footer{
                                         font-style:italic;
                                         box-shadow:0 0 20px,0 0 30px,0 0 40px;
                                         text-shadow:3px 3px #260650eb;
-                                        
-                                        
+
+
                                         /*Animation*/
                                         animation-duration: 6s;
                                         animation-delay:30s;
                                     }
-                                    
+
                                     .head2 p{
                                         color:yellow;
                                         font-size:15px;
                                         font-style:italic;
                                         margin-top:1px;
                                         font-family:amita;
-                                    
+
                                     }
-                                    
-                                    
-                                    
-                                    
+
+
+
+
                                                                     /*The section of the head3*/
-                                                                    
-                                    
+
+
                                     .head3{
                                         width:15%;
                                         float:left;
                                         margin-top:0px;
-                                        
+
                                     }
-                                    
+
                                     .rightbar{
                                         position:fixed;
                                         background:#1e053eeb;
@@ -3464,7 +3492,7 @@ footer{
                                         height:450px;
                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                         z-index:111111;
-                                    
+
                                     }
                                     .rightbar h6{
                                         color:rgb(249, 133, 115);
@@ -3483,26 +3511,26 @@ footer{
                                         font-family:Allura;
                                         font-size:20px;
                                     }
-                                    
+
                                     .rightbar span a{
                                         text-decoration: none;
                                         color:green;
                                         text-shadow:white;
                                         margin-top:10px;
                                     }
-                                    
+
                                     .rightbar .i{
                                         letter-spacing: 10px;
                                         margin-top:30px;
                                         margin-left:80px;
                                     }
-                                    
+
                                     #chec{
                                         display:none;
                                     }
-                                    
+
                                     #bt{
-                                        
+
                                         position:absolute;
                                         top:25px;
                                         right:13px;
@@ -3513,7 +3541,7 @@ footer{
                                         cursor:pointer;
                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                     }
-                                    
+
                                     #cance{
                                         position:absolute;
                                         top:15px;
@@ -3528,7 +3556,7 @@ footer{
                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                         /*background:purple;*/
                                     }
-                                    
+
                                     #chec:checked ~ .rightbar{
                                         right:0;
                                     }
@@ -3540,7 +3568,7 @@ footer{
                                         opacity:1;
                                         position:fixed;
                                     }
-                                    
+
                                     .rightbar input[type=text]{
                                         padding:10px;
                                         width:80%;
@@ -3562,7 +3590,7 @@ footer{
                                         color:blue;
                                         margin-top:0px;
                                     }
-                                    
+
                                     .submit input[type=submit]{
                                         background:none;
                                         padding:0px;
@@ -3588,21 +3616,21 @@ footer{
                                         font-size:12px;
                                         font-family: cursive;
                                         font-style:italic;
-                                        
+
                                     }
                                     .fa-envelope-o{
                                         color:white;
                                         margin-top:30px;
                                         margin-left:34px;
                                         font-size:17px;
-                                        
+
                                     }
                                     .fa-lock{
                                         color:white;
                                         margin-top:20px;
                                         margin-left:34px;
                                         font-size:17px;
-                                        
+
                                     }
                                     .fa-eye{
                                         position:absolute;
@@ -3610,14 +3638,14 @@ footer{
                                         right:12%;
                                         color:white;
                                     }
-                                    
+
 
                             /*The section of the main*/
-                            
-                            
+
+
                             /*The section of the main*/
-                            
-                            
+
+
                             .main{
                                 background:url(images/aa.jpg);
                                 background-size:cover;
@@ -3625,10 +3653,10 @@ footer{
                                 width:100%;
                                 height:900px;
                             }
-                            
-                            
+
+
                             /*The section of the main left*/
-                            
+
                             .main .left{
                                 background:#330e6375;
                                 width:100%;
@@ -3649,7 +3677,7 @@ footer{
                                 text-shadow:2px 2px white;
                                 margin-top:70px;
                             }
-                            
+
                             .left h2{
                                 text-align:center;
                                 font-family: 'Akronim';
@@ -3659,10 +3687,10 @@ footer{
                                 color:#27036dcc;
                                 letter-spacing:3px;
                                 margin-bottom:55px;
-                                
-                                
+
+
                             }
-                            
+
                             .fa-heart{
                                 color:red;
                                 font-size:30px;
@@ -3677,11 +3705,11 @@ footer{
                                 text-shadow:none;
 /*                                 text-shadow:1px 1px yellow */
                             }
-                            
-                            
-                            
+
+
+
                             /*The section of the main right*/
-                            
+
                             .right{
                                 background:#330e6375;
                                 background-position:center;
@@ -3693,8 +3721,8 @@ footer{
                                 margin-right:0px;
                                 border-radius:0px;
                             }
-                            
-                            
+
+
                             #flip {
                                 margin-top:0px;
                                 text-align: center;
@@ -3709,13 +3737,13 @@ footer{
                                 border-radius:20px;
                                 margin-bottom:10px;
                             }
-                            
+
                             #panel {
                               display: none;
                               color:white;
                             }
-                            
-                            
+
+
                             #panel label{
                                 display:block;
                                 margin-left:60px;
@@ -3734,7 +3762,7 @@ footer{
                                 color:white;
                                 margin-bottom:6px;
                             }
-                            
+
                             #sele{
                                 width:33.5%;
                                 padding:10px;
@@ -3756,7 +3784,7 @@ footer{
                                 float:left;
                                 margin-bottom:30px
                             }
-                            
+
                             #selecc{
                                 width:70%;
                                 padding:10px;
@@ -3767,7 +3795,7 @@ footer{
                                 color:white;
                                 margin-bottom:20px;
                             }
-                            
+
                             input[type=submit]{
                                 width:70%;
                                 padding:1px;
@@ -3783,8 +3811,8 @@ footer{
                                 text-shadow:1px 1px red;
                                 cursor:pointer;
                             }
-                            
-                            
+
+
                             .marq{
                                 background:#330e6375;
                                 width:50%;
@@ -3801,24 +3829,24 @@ footer{
                                 height:1600px;
                                 background:url(images/12.png);
                             }
-                            
-                            
-                             
+
+
+
                             /*The section of the content1*/
-                            
+
                             .content1{
                                 width:100%;
                                 float:left;
                                 height:350px;
-                            
+
                             }
                             .one a:hover{
                                 padding-left:0px;
                                 transition:none;
                                 padding-top:0px;
-                                
+
                             }
-                       
+
                             .one{
                                 border-radius:25px;
                                 width:80%;
@@ -3828,10 +3856,10 @@ footer{
                                 margin-top:50px;
                                 border:2px dashed yellow
                             }
-                            
-                            
+
+
                             /*The section of the content2*/
-                            
+
                             .content2{
 /*                                 background:#330e63c7; */
                                 width:100%;
@@ -3842,7 +3870,7 @@ footer{
                                 padding-left:0px;
                                 transition:none;
                                 padding-top:0px;
-                                
+
                             }
 
                             .two{
@@ -3854,10 +3882,10 @@ footer{
                                 margin-top:0px;
                                 border:2px dashed yellow
                             }
-                            
-                            
+
+
                             /*The section of the content3*/
-                            
+
                             .content3{
                                 background:#330e6378;
                                 width:100%;
@@ -3868,7 +3896,7 @@ footer{
                                 padding-left:0px;
                                 transition:none;
                                 padding-top:0px;
-                                
+
                             }
 
                             .three{
@@ -3880,10 +3908,10 @@ footer{
                                 margin-top:0px;
                                 border:2px dashed yellow
                             }
-                            
-                            
+
+
                             /*The section of the content4*/
-                            
+
                             .content4{
                                 background:#330e6378;
                                 width:100%;
@@ -3894,7 +3922,7 @@ footer{
                                 padding-left:0px;
                                 transition:none;
                                 padding-top:0px;
-                                
+
                             }
 
                             .four{
@@ -3906,15 +3934,15 @@ footer{
                                 margin-top:0px;
                                 border:2px dashed yellow
                             }
-                            
-                            
+
+
                             .one .fa-compass{
                                 color:white;
                                 font-size:70px;
                                 margin:20px 0 0 140px;
                                 text-shadow:1px 1px yellow;
                             }
-                            
+
                             .one h3{
                                 color:white;
                                 font-size:35px;
@@ -3924,15 +3952,15 @@ footer{
                                 margin-bottom:10px;
                                 text-shadow:3px 3px #330e63eb;
                             }
-                            
+
                             .one p{
                                 color:white;
                                 text-align:center;
                                 font-family: 'Allura';
                                 font-size:20px;
-                                
+
                             }
-                            
+
                             .two .fa-comments-o{
                                 color:white;
                                 font-size:65px;
@@ -3953,9 +3981,9 @@ footer{
                                 text-align:center;
                                 font-family: 'Allura';
                                 font-size:20px;
-                                
+
                             }
-                            
+
                             .three .fa-clock-o{
                                 color:white;
                                 font-size:65px;
@@ -3976,17 +4004,17 @@ footer{
                                 text-align:center;
                                 font-family: 'Allura';
                                 font-size:20px;
-                                
+
                             }
-                            
-                            
+
+
                             .four .fa-gift{
                                 color:white;
                                 font-size:65px;
                                 margin:20px 0 0 140px;
                                 text-shadow:1px 1px yellow;
                             }
-                            
+
                             .four h3{
                               color:white;
                                 font-size:35px;
@@ -3996,27 +4024,27 @@ footer{
                                 margin-bottom:10px;
                                 text-shadow:3px 3px #330e63eb;
                             }
-                            
+
                             .four p{
                                 color:white;
                                 text-align:center;
                                 font-family: 'Allura';
-                                font-size:20px;   
+                                font-size:20px;
                             }
-                            
-                            
-                            
+
+
+
                             /*The section of the content5*/
-                            
+
                             .content5{
                                 background:#330e63eb;
                                 width:100%;
                                 float:left;
                                 height:350px;
-                            
+                                position:relative;
                                 margin-top:0px;
                             }
-                            
+
                             .content5 h1{
                                 text-align:center;
                                 color:#b51474fc;
@@ -4049,9 +4077,9 @@ footer{
                                 font-size:55px;
                                 border-radius:55px;
                                 box-shadow:0 0 20px yellow,0 0 40px yellow,0 0 80px yellow,0 0 100px yellow;
-                                
+
                             }
-                            
+
                             #search{
                                 padding:10px;
                                 width:70%;
@@ -4066,18 +4094,18 @@ footer{
                             }
                             .fa-search{
                                 position:absolute;
-                                top:2470px;
+                                bottom:104px;
                                 right:15%;
                                 transform:translate(-50%,-50%);
                                 color:white;
                                 cursor:pointer;
                                 font-size:18px;
                                 text-shadow:1px 1px red;
-                            }                            
+                            }
 
                                                     /*The section of the class*/
-                            
-                            
+
+
 .class{
     height:700px;
     width:100%;
@@ -4129,13 +4157,13 @@ footer{
 
 
 
- 
+
 
 
 
                             /*The middle div section of the page*/
-                            
-                            
+
+
 .middle{
     width:100%;
     height:1600px;
@@ -4172,7 +4200,7 @@ footer{
     margin-top:10px;
     margin-left:0px;
     border-bottom:1px solid yellow;
-    
+
 }
 
 .middle-left .one-01{
@@ -4287,8 +4315,8 @@ footer{
 
 
                             /*The middle content section*/
-                            
-                            
+
+
 .middle-content{
     width:100%;
     height:1640px;
@@ -4427,8 +4455,8 @@ footer{
 
 
                             /*section of the main-content*/
-                            
-                            
+
+
 .main-content{
     background:url(images/a.jpg);
     width:100%;
@@ -4531,7 +4559,7 @@ button:hover{
     margin-left:13px;
     margin-top:80px;
     transition:all 0.5s;
-    
+
 }
 .attraction{
     background:#0c6724;
@@ -4637,7 +4665,7 @@ button:hover{
 
 
                                 /*The section of the footer*/
-                                
+
 
 footer{
     background:url(images/jj.jpg);
@@ -4767,7 +4795,7 @@ footer{
     background:#27036d9e;
     border-radius:20px;
     height:160px
-    
+
 }
 
 
@@ -4778,6 +4806,7 @@ footer{
     height:430px;
     background:#1e053eeb;
     border-bottom:5px solid blue;
+    position:relative;
 }
 .footer2{
     width:100%;
@@ -4830,14 +4859,14 @@ footer{
     border:1px solid yellow;
     border-radius:25px;
     position:absolute;
-    top:6915px;
+    bottom:51px;
     left:60%;
     width:30%;
     font-weight:bold;
     text-transform:uppercase;
     outline:none;
     cursor:pointer;
-    
+
 }
 .footer1 .find{
     font-size:18px;
@@ -4909,7 +4938,7 @@ footer{
     letter-spacing:10px;
     margin-left:70px;
     font-size:30px;
-    margin-top:50px;
+    margin-top:40px;
 }
 
 .footer2 .layo{
@@ -4918,43 +4947,44 @@ footer{
     font-size:20px;
     margin-top:20px;
     font-family:amita;
+    margin-right:0;
 }
-                                } 
+                                }
 
 
 
 
 
                                 /* THE MEDIA QUERY */
-                                @media screen and (max-width:375px){
-    
+                                @media screen and (max-width:375px) and (min-width:321px){
+
 
                                     #container{
                                         width:100%;
                                         height:5580px;
                                     }
-                                    
-                                    
+
+
                                                             /*The section of the header*/
-                                                            
-                                                            
+
+
                                     header{
                                         width:100%;
                                         height:100px;
 
                                     }
-                                    
-                                    
-                                    
+
+
+
                                                                 /*The section of the head1*/
-                                                                
+
                                     .head1{
                                         width:15%;
                                         float:left;
                                         position:fixed;
                                         z-index:1111111;
                                     }
-                                    
+
                                     .sidebar{
                                         position:fixed;
                                         background:#1e053eeb;
@@ -4973,7 +5003,7 @@ footer{
                                         padding:30px 0;
                                         transition:all 0.5s;
                                     }
-                                    
+
                                     .sidebar marquee{
                                         padding:10px;
                                         margin-bottom:5px;
@@ -4981,13 +5011,13 @@ footer{
                                         font-style:italic;
                                         color:yellow;
                                         font-size:13px
-                                    
+
                                     }
-                                    
+
                                     .sidebar ul{
                                         list-style-type: none;
                                     }
-                                    
+
                                     .sidebar ul li a{
                                         color:white;
                                         line-height:60px;
@@ -5000,20 +5030,20 @@ footer{
                                         border-top:1px solid #999;
                                         font-family:allura;
                                     }
-                                    
+
                                     .sidebar ul li a:hover{
                                         padding-left:50px;
                                     }
-                                    
+
                                     .sidebar i{
                                         padding-right:15px;
                                         color:yellow;
                                     }
-                                    
+
                                     #check{
                                         display:none;
                                     }
-                                    
+
                                     #btn{
                                         position:absolute;
                                         top:25px;
@@ -5025,7 +5055,7 @@ footer{
                                         cursor:pointer;
                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                     }
-                                    
+
                                     #cancel{
                                         position:absolute;
                                         top:45px;
@@ -5039,7 +5069,7 @@ footer{
                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                         /*background:purple;*/
                                     }
-                                    
+
                                     #check:checked ~ .sidebar{
                                         left:0;
                                     }
@@ -5050,13 +5080,13 @@ footer{
                                         left:175px;
                                         top:8px;
                                     }
-                                    
-                                    
-                                    
-                                    
+
+
+
+
                                                                 /*The section of the head2*/
-                                                                
-                                    
+
+
                                     .head2{
                                         padding:20px;
                                         width:89%;
@@ -5075,34 +5105,34 @@ footer{
                                         font-style:italic;
                                         box-shadow:0 0 20px,0 0 30px,0 0 40px;
                                         text-shadow:3px 3px #260650eb;
-                                        
-                                        
+
+
                                         /*Animation*/
                                         animation-duration: 6s;
                                         animation-delay:30s;
                                     }
-                                    
+
                                     .head2 p{
                                         color:yellow;
                                         font-size:15px;
                                         font-style:italic;
                                         margin-top:1px;
                                         font-family:amita;
-                                    
+
                                     }
-                                    
-                                    
-                                    
-                                    
+
+
+
+
                                                                     /*The section of the head3*/
-                                                                    
-                                    
+
+
                                     .head3{
                                         width:15%;
                                         float:left;
                                         margin-top:0px;
                                     }
-                                    
+
                                     .rightbar{
                                         position:fixed;
                                         background:#1e053eeb;
@@ -5112,7 +5142,7 @@ footer{
                                         height:450px;
                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                         z-index:111111;
-                                    
+
                                     }
                                     .rightbar h6{
                                         color:rgb(249, 133, 115);
@@ -5132,24 +5162,24 @@ footer{
                                         font-family:Allura;
                                         font-size:20px;
                                     }
-                                    
+
                                     .rightbar span a{
                                         text-decoration: none;
                                         color:#27ff00;
                                         text-shadow:white;
                                         margin-top:10px;
                                     }
-                                    
+
                                     .rightbar .i{
                                         letter-spacing: 10px;
                                         margin-top:30px;
                                         margin-left:50px;
                                     }
-                                    
+
                                     #chec{
                                         display:none;
                                     }
-                                    
+
                                     #bt{
                                         position:absolute;
                                         top:25px;
@@ -5161,7 +5191,7 @@ footer{
                                         cursor:pointer;
                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                     }
-                                    
+
                                     #cance{
                                         position:absolute;
                                         top:15px;
@@ -5176,7 +5206,7 @@ footer{
                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                         /*background:purple;*/
                                     }
-                                    
+
                                     #chec:checked ~ .rightbar{
                                         right:0;
                                     }
@@ -5187,7 +5217,7 @@ footer{
                                         right:15px;
                                         opacity:1;
                                     }
-                                    
+
                                     .rightbar input[type=text]{
                                         padding:10px;
                                         width:80%;
@@ -5209,7 +5239,7 @@ footer{
                                         color:blue;
                                         margin-top:0px;
                                     }
-                                    
+
                                     .submit input[type=submit]{
                                         background:none;
                                         padding:0px;
@@ -5227,7 +5257,7 @@ footer{
                                         background:blue;
                                         color:white;
                                     }
-                                    
+
                                     .forgot a{
                                         color:white;
                                         cursor:pointer;
@@ -5236,21 +5266,21 @@ footer{
                                         font-size:12px;
                                         font-family: cursive;
                                         font-style:italic;
-                                        
+
                                     }
                                     .fa-envelope-o{
                                         color:white;
                                         margin-top:30px;
                                         margin-left:34px;
                                         font-size:15px;
-                                        
+
                                     }
                                     .fa-lock{
                                         color:white;
                                         margin-top:20px;
                                         margin-left:34px;
                                         font-size:15px;
-                                        
+
                                     }
                                     .fa-eye{
                                         position:absolute;
@@ -5258,14 +5288,14 @@ footer{
                                         right:12%;
                                         color:#eeeeeee0;
                                     }
-                                    
+
 
                             /*The section of the main*/
-                            
-                            
+
+
                             /*The section of the main*/
-                            
-                            
+
+
                             .main{
                                 background:url(images/aa.jpg);
                                 background-size:cover;
@@ -5273,10 +5303,10 @@ footer{
                                 width:100%;
                                 height:900px;
                             }
-                            
-                            
+
+
                             /*The section of the main left*/
-                            
+
                             .main .left{
                                 background:#330e6375;
                                 width:100%;
@@ -5297,7 +5327,7 @@ footer{
                                 text-shadow:2px 2px white;
                                 margin-top:70px;
                             }
-                            
+
                             .left h2{
                                 text-align:center;
                                 font-family: 'Akronim';
@@ -5307,10 +5337,10 @@ footer{
                                 color:#27036dcc;
                                 letter-spacing:3px;
                                 margin-bottom:55px;
-                                
-                                
+
+
                             }
-                            
+
                             .fa-heart{
                                 color:red;
                                 font-size:30px;
@@ -5325,11 +5355,11 @@ footer{
                                 text-shadow:none;
 /*                                 text-shadow:1px 1px yellow */
                             }
-                            
-                            
-                            
+
+
+
                             /*The section of the main right*/
-                            
+
                             .right{
                                 background:#330e6375;
                                 background-position:center;
@@ -5341,8 +5371,8 @@ footer{
                                 margin-right:0px;
                                 border-radius:0px;
                             }
-                            
-                            
+
+
                             #flip {
                                 margin-top:0px;
                                 text-align: center;
@@ -5357,13 +5387,13 @@ footer{
                                 border-radius:20px;
                                 margin-bottom:10px;
                             }
-                            
+
                             #panel {
                               display: none;
                               color:white;
                             }
-                            
-                            
+
+
                             #panel label{
                                 display:block;
                                 margin-left:60px;
@@ -5382,7 +5412,7 @@ footer{
                                 color:white;
                                 margin-bottom:6px;
                             }
-                            
+
                             #sele{
                                 width:33.5%;
                                 padding:10px;
@@ -5404,7 +5434,7 @@ footer{
                                 float:left;
                                 margin-bottom:30px
                             }
-                            
+
                             #selecc{
                                 width:70%;
                                 padding:10px;
@@ -5415,7 +5445,7 @@ footer{
                                 color:white;
                                 margin-bottom:20px;
                             }
-                            
+
                             input[type=submit]{
                                 width:70%;
                                 padding:1px;
@@ -5431,8 +5461,8 @@ footer{
                                 text-shadow:1px 1px red;
                                 cursor:pointer;
                             }
-                            
-                            
+
+
                             .marq{
                                 background:#330e6375;
                                 width:50%;
@@ -5449,24 +5479,24 @@ footer{
                                 height:1600px;
                                 background:url(images/12.png);
                             }
-                            
-                            
-                             
+
+
+
                             /*The section of the content1*/
-                            
+
                             .content1{
                                 width:100%;
                                 float:left;
                                 height:350px;
-                            
+
                             }
                             .one a:hover{
                                 padding-left:0px;
                                 transition:none;
                                 padding-top:0px;
-                                
+
                             }
-                       
+
                             .one{
                                 border-radius:25px;
                                 width:80%;
@@ -5476,10 +5506,10 @@ footer{
                                 margin-top:50px;
                                 border:2px dashed yellow
                             }
-                            
-                            
+
+
                             /*The section of the content2*/
-                            
+
                             .content2{
 /*                                 background:#330e63c7; */
                                 width:100%;
@@ -5490,7 +5520,7 @@ footer{
                                 padding-left:0px;
                                 transition:none;
                                 padding-top:0px;
-                                
+
                             }
 
                             .two{
@@ -5502,10 +5532,10 @@ footer{
                                 margin-top:0px;
                                 border:2px dashed yellow
                             }
-                            
-                            
+
+
                             /*The section of the content3*/
-                            
+
                             .content3{
                                 background:#330e6378;
                                 width:100%;
@@ -5516,7 +5546,7 @@ footer{
                                 padding-left:0px;
                                 transition:none;
                                 padding-top:0px;
-                                
+
                             }
 
                             .three{
@@ -5528,10 +5558,10 @@ footer{
                                 margin-top:0px;
                                 border:2px dashed yellow
                             }
-                            
-                            
+
+
                             /*The section of the content4*/
-                            
+
                             .content4{
                                 background:#330e6378;
                                 width:100%;
@@ -5542,7 +5572,7 @@ footer{
                                 padding-left:0px;
                                 transition:none;
                                 padding-top:0px;
-                                
+
                             }
 
                             .four{
@@ -5554,8 +5584,8 @@ footer{
                                 margin-top:0px;
                                 border:2px dashed yellow
                             }
-                            
-                            
+
+
                             .one .fa-compass{
                                 color:white;
                                 font-size:70px;
@@ -5563,7 +5593,7 @@ footer{
                                 text-shadow:1px 1px yellow;
                             }
 
-                            
+
                             .one h3{
                                 color:white;
                                 font-size:33px;
@@ -5573,15 +5603,15 @@ footer{
                                 margin-bottom:10px;
                                 text-shadow:3px 3px #330e63eb;
                             }
-                            
+
                             .one p{
                                 color:white;
                                 text-align:center;
                                 font-family: 'Allura';
                                 font-size:20px;
-                                
+
                             }
-                            
+
                             .two .fa-comments-o{
                                 color:white;
                                 font-size:65px;
@@ -5602,9 +5632,9 @@ footer{
                                 text-align:center;
                                 font-family: 'Allura';
                                 font-size:20px;
-                                
+
                             }
-                            
+
                             .three .fa-clock-o{
                                 color:white;
                                 font-size:65px;
@@ -5625,17 +5655,17 @@ footer{
                                 text-align:center;
                                 font-family: 'Allura';
                                 font-size:20px;
-                                
+
                             }
-                            
-                            
+
+
                             .four .fa-gift{
                                 color:white;
                                 font-size:65px;
                                 margin:20px 0 0 124px;
                                 text-shadow:1px 1px yellow;
                             }
-                            
+
                             .four h3{
                               color:white;
                                 font-size:33px;
@@ -5645,27 +5675,27 @@ footer{
                                 margin-bottom:10px;
                                 text-shadow:3px 3px #330e63eb;
                             }
-                            
+
                             .four p{
                                 color:white;
                                 text-align:center;
                                 font-family: 'Allura';
-                                font-size:20px;   
+                                font-size:20px;
                             }
-                            
-                            
-                            
+
+
+
                             /*The section of the content5*/
-                            
+
                             .content5{
                                 background:#330e63eb;
                                 width:100%;
                                 float:left;
                                 height:350px;
-                            
+                                position:relative;
                                 margin-top:0px;
                             }
-                            
+
                             .content5 h1{
                                 text-align:center;
                                 color:#b51474fc;
@@ -5698,9 +5728,9 @@ footer{
                                 font-size:55px;
                                 border-radius:55px;
                                 box-shadow:0 0 20px yellow,0 0 40px yellow,0 0 80px yellow,0 0 100px yellow;
-                                
+
                             }
-                            
+
                             #search{
                                 padding:10px;
                                 width:70%;
@@ -5715,18 +5745,18 @@ footer{
                             }
                             .fa-search{
                                 position:absolute;
-                                top:2470px;
+                                bottom:104px;
                                 right:15%;
                                 transform:translate(-50%,-50%);
                                 color:white;
                                 cursor:pointer;
                                 font-size:18px;
                                 text-shadow:1px 1px red;
-                            }                            
+                            }
 
                                                     /*The section of the class*/
-                            
-                            
+
+
 .class{
     height:700px;
     width:100%;
@@ -5778,13 +5808,13 @@ footer{
 
 
 
- 
+
 
 
 
                             /*The middle div section of the page*/
-                            
-                            
+
+
 .middle{
     width:100%;
     height:1600px;
@@ -5822,7 +5852,7 @@ footer{
     margin-top:10px;
     margin-left:0px;
     border-bottom:1px solid yellow;
-    
+
 }
 
 .middle-left .one-01{
@@ -5937,8 +5967,8 @@ footer{
 
 
                             /*The middle content section*/
-                            
-                            
+
+
 .middle-content{
     width:100%;
     height:1640px;
@@ -6077,8 +6107,8 @@ footer{
 
 
                             /*section of the main-content*/
-                            
-                            
+
+
 .main-content{
     background:url(images/a.jpg);
     width:100%;
@@ -6182,7 +6212,7 @@ button:hover{
     margin-top:108px;
     transition:all 0.5s;
     font-size:11px;
-    
+
 }
 .attraction{
     background:#0c6724;
@@ -6295,7 +6325,7 @@ button:hover{
 
 
                                 /*The section of the footer*/
-                                
+
 
 footer{
     background:url(images/jj.jpg);
@@ -6425,7 +6455,7 @@ footer{
     background:#27036d9e;
     border-radius:20px;
     height:160px
-    
+
 }
 
 
@@ -6436,6 +6466,7 @@ footer{
     height:430px;
     background:#1e053eeb;
     border-bottom:5px solid blue;
+    position:relative;
 }
 .footer2{
     width:100%;
@@ -6488,14 +6519,14 @@ footer{
     border:1px solid yellow;
     border-radius:25px;
     position:absolute;
-    top:6910px;
+    bottom:53px;
     left:61%;
     width:30%;
     font-weight:bold;
     text-transform:uppercase;
     outline:none;
     cursor:pointer;
-    
+
 }
 .footer1 .find{
     font-size:15px;
@@ -6577,45 +6608,46 @@ footer{
     font-size:15px;
     margin-top:20px;
     font-family:amita;
+    margin-right:0;
 }
-                                } 
+  }
 
 
 
-                    
+
 
 
 
                                                                 /* THE MEDIA QUERY */
                                                                 @media screen and (max-width:320px){
-    
+
 
                                                                     #container{
                                                                         width:100%;
                                                                         height:5580px;
                                                                     }
-                                                                    
-                                                                    
+
+
                                                                                             /*The section of the header*/
-                                                                                            
-                                                                                            
+
+
                                                                     header{
                                                                         width:100%;
                                                                         height:100px;
-                                
+
                                                                     }
-                                                                    
-                                                                    
-                                                                    
+
+
+
                                                                                                 /*The section of the head1*/
-                                                                                                
+
                                                                     .head1{
                                                                         width:15%;
                                                                         float:left;
                                                                         position:fixed;
                                                                         z-index:1111111;
                                                                     }
-                                                                    
+
                                                                     .sidebar{
                                                                         position:fixed;
                                                                         background:#1e053eeb;
@@ -6634,7 +6666,7 @@ footer{
                                                                         padding:30px 0;
                                                                         transition:all 0.5s;
                                                                     }
-                                                                    
+
                                                                     .sidebar marquee{
                                                                         padding:10px;
                                                                         margin-bottom:5px;
@@ -6642,13 +6674,13 @@ footer{
                                                                         font-style:italic;
                                                                         color:yellow;
                                                                         font-size:13px
-                                                                    
+
                                                                     }
-                                                                    
+
                                                                     .sidebar ul{
                                                                         list-style-type: none;
                                                                     }
-                                                                    
+
                                                                     .sidebar ul li a{
                                                                         color:white;
                                                                         line-height:60px;
@@ -6661,20 +6693,20 @@ footer{
                                                                         border-top:1px solid #999;
                                                                         font-family:allura;
                                                                     }
-                                                                    
+
                                                                     .sidebar ul li a:hover{
                                                                         padding-left:50px;
                                                                     }
-                                                                    
+
                                                                     .sidebar i{
                                                                         padding-right:15px;
                                                                         color:yellow;
                                                                     }
-                                                                    
+
                                                                     #check{
                                                                         display:none;
                                                                     }
-                                                                    
+
                                                                     #btn{
                                                                         position:absolute;
                                                                         top:25px;
@@ -6686,7 +6718,7 @@ footer{
                                                                         cursor:pointer;
                                                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                                                     }
-                                                                    
+
                                                                     #cancel{
                                                                         position:absolute;
                                                                         top:45px;
@@ -6700,7 +6732,7 @@ footer{
                                                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                                                         /*background:purple;*/
                                                                     }
-                                                                    
+
                                                                     #check:checked ~ .sidebar{
                                                                         left:0;
                                                                     }
@@ -6711,13 +6743,13 @@ footer{
                                                                         left:175px;
                                                                         top:8px;
                                                                     }
-                                                                    
-                                                                    
-                                                                    
-                                                                    
+
+
+
+
                                                                                                 /*The section of the head2*/
-                                                                                                
-                                                                    
+
+
                                                                     .head2{
                                                                         padding:20px;
                                                                         width:88%;
@@ -6736,34 +6768,34 @@ footer{
                                                                         font-style:italic;
                                                                         box-shadow:0 0 20px,0 0 30px,0 0 40px;
                                                                         text-shadow:3px 3px #260650eb;
-                                                                        
-                                                                        
+
+
                                                                         /*Animation*/
                                                                         animation-duration: 6s;
                                                                         animation-delay:30s;
                                                                     }
-                                                                    
+
                                                                     .head2 p{
                                                                         color:yellow;
                                                                         font-size:15px;
                                                                         font-style:italic;
                                                                         margin-top:1px;
                                                                         font-family:amita;
-                                                                    
+
                                                                     }
-                                                                    
-                                                                    
-                                                                    
-                                                                    
+
+
+
+
                                                                                                     /*The section of the head3*/
-                                                                                                    
-                                                                    
+
+
                                                                     .head3{
                                                                         width:15%;
                                                                         float:left;
                                                                         margin-top:0px;
                                                                     }
-                                                                    
+
                                                                     .rightbar{
                                                                         position:fixed;
                                                                         background:#1e053eeb;
@@ -6773,7 +6805,7 @@ footer{
                                                                         height:450px;
                                                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                                                         z-index:111111;
-                                                                    
+
                                                                     }
                                                                     .rightbar h6{
                                                                         color:rgb(249, 133, 115);
@@ -6793,24 +6825,24 @@ footer{
                                                                         font-family:Allura;
                                                                         font-size:16px;
                                                                     }
-                                                                    
+
                                                                     .rightbar span a{
                                                                         text-decoration: none;
                                                                         color:#27ff00;
                                                                         text-shadow:white;
                                                                         margin-top:10px;
                                                                     }
-                                                                    
+
                                                                     .rightbar .i{
                                                                         letter-spacing: 10px;
                                                                         margin-top:30px;
                                                                         margin-left:20px;
                                                                     }
-                                                                    
+
                                                                     #chec{
                                                                         display:none;
                                                                     }
-                                                                    
+
                                                                     #bt{
                                                                         position:absolute;
                                                                         top:25px;
@@ -6822,7 +6854,7 @@ footer{
                                                                         cursor:pointer;
                                                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                                                     }
-                                                                    
+
                                                                     #cance{
                                                                         position:absolute;
                                                                         top:11px;
@@ -6837,7 +6869,7 @@ footer{
                                                                         transition:all 0.5s cubic-bezier(0.4, 0, 1, 1);
                                                                         /*background:purple;*/
                                                                     }
-                                                                    
+
                                                                     #chec:checked ~ .rightbar{
                                                                         right:0;
                                                                     }
@@ -6848,7 +6880,7 @@ footer{
                                                                         right:10px;
                                                                         opacity:1;
                                                                     }
-                                                                    
+
                                                                     .rightbar input[type=text]{
                                                                         padding:10px;
                                                                         width:80%;
@@ -6870,7 +6902,7 @@ footer{
                                                                         color:blue;
                                                                         margin-top:0px;
                                                                     }
-                                                                    
+
                                                                     .submit input[type=submit]{
                                                                         background:none;
                                                                         padding:0px;
@@ -6888,7 +6920,7 @@ footer{
                                                                         background:blue;
                                                                         color:white;
                                                                     }
-                                                                    
+
                                                                     .forgot a{
                                                                         color:white;
                                                                         cursor:pointer;
@@ -6897,21 +6929,21 @@ footer{
                                                                         font-size:10px;
                                                                         font-family: cursive;
                                                                         font-style:italic;
-                                                                        
+
                                                                     }
                                                                     .fa-envelope-o{
                                                                         color:white;
                                                                         margin-top:30px;
                                                                         margin-left:34px;
                                                                         font-size:15px;
-                                                                        
+
                                                                     }
                                                                     .fa-lock{
                                                                         color:white;
                                                                         margin-top:20px;
                                                                         margin-left:34px;
                                                                         font-size:15px;
-                                                                        
+
                                                                     }
                                                                     .fa-eye{
                                                                         position:absolute;
@@ -6919,14 +6951,14 @@ footer{
                                                                         right:12%;
                                                                         color:#eeeeeee0;
                                                                     }
-                                                                    
-                                
+
+
                                                             /*The section of the main*/
-                                                            
-                                                            
+
+
                                                             /*The section of the main*/
-                                                            
-                                                            
+
+
                                                             .main{
                                                                 background:url(images/aa.jpg);
                                                                 background-size:cover;
@@ -6934,10 +6966,10 @@ footer{
                                                                 width:100%;
                                                                 height:900px;
                                                             }
-                                                            
-                                                            
+
+
                                                             /*The section of the main left*/
-                                                            
+
                                                             .main .left{
                                                                 background:#330e6375;
                                                                 width:100%;
@@ -6958,7 +6990,7 @@ footer{
                                                                 text-shadow:2px 2px white;
                                                                 margin-top:70px;
                                                             }
-                                                            
+
                                                             .left h2{
                                                                 text-align:center;
                                                                 font-family: 'Akronim';
@@ -6968,10 +7000,10 @@ footer{
                                                                 color:#27036dcc;
                                                                 letter-spacing:3px;
                                                                 margin-bottom:55px;
-                                                                
-                                                                
+
+
                                                             }
-                                                            
+
                                                             .fa-heart{
                                                                 color:red;
                                                                 font-size:30px;
@@ -6986,11 +7018,11 @@ footer{
                                                                 text-shadow:none;
                                 /*                                 text-shadow:1px 1px yellow */
                                                             }
-                                                            
-                                                            
-                                                            
+
+
+
                                                             /*The section of the main right*/
-                                                            
+
                                                             .right{
                                                                 background:#330e6375;
                                                                 background-position:center;
@@ -7002,8 +7034,8 @@ footer{
                                                                 margin-right:0px;
                                                                 border-radius:0px;
                                                             }
-                                                            
-                                                            
+
+
                                                             #flip {
                                                                 margin-top:0px;
                                                                 text-align: center;
@@ -7018,13 +7050,13 @@ footer{
                                                                 border-radius:20px;
                                                                 margin-bottom:10px;
                                                             }
-                                                            
+
                                                             #panel {
                                                               display: none;
                                                               color:white;
                                                             }
-                                                            
-                                                            
+
+
                                                             #panel label{
                                                                 display:block;
                                                                 margin-left:60px;
@@ -7043,7 +7075,7 @@ footer{
                                                                 color:white;
                                                                 margin-bottom:6px;
                                                             }
-                                                            
+
                                                             #sele{
                                                                 width:33.5%;
                                                                 padding:10px;
@@ -7065,7 +7097,7 @@ footer{
                                                                 float:left;
                                                                 margin-bottom:30px
                                                             }
-                                                            
+
                                                             #selecc{
                                                                 width:70%;
                                                                 padding:10px;
@@ -7076,7 +7108,7 @@ footer{
                                                                 color:white;
                                                                 margin-bottom:20px;
                                                             }
-                                                            
+
                                                             input[type=submit]{
                                                                 width:70%;
                                                                 padding:1px;
@@ -7088,46 +7120,46 @@ footer{
                                                                 margin-bottom:6px;
                                                                 text-transform:capitalize;
                                                                 font-family:amita;
-                                                                font-size:25px;
+                                                                font-size:20px;
                                                                 text-shadow:1px 1px red;
                                                                 cursor:pointer;
                                                             }
-                                                            
-                                                            
+
+
                                                             .marq{
                                                                 background:#330e6375;
                                                                 width:50%;
                                                                 margin-left:85px;
                                                                 margin-bottom:50px;
                                                             }
-                                
-                                
+
+
                                                             /*The section of the content of the page*/
-                                
-                                
+
+
                                                             .content{
                                                                 width:100%;
                                                                 height:1600px;
                                                                 background:url(images/12.png);
                                                             }
-                                                            
-                                                            
-                                                             
+
+
+
                                                             /*The section of the content1*/
-                                                            
+
                                                             .content1{
                                                                 width:100%;
                                                                 float:left;
                                                                 height:350px;
-                                                            
+
                                                             }
                                                             .one a:hover{
                                                                 padding-left:0px;
                                                                 transition:none;
                                                                 padding-top:0px;
-                                                                
+
                                                             }
-                                                       
+
                                                             .one{
                                                                 border-radius:25px;
                                                                 width:80%;
@@ -7136,12 +7168,12 @@ footer{
                                                                 background:#27036d47;
                                                                 margin-top:50px;
                                                                 border:2px dashed yellow;
-                                                               
+
                                                             }
-                                                            
-                                                            
+
+
                                                             /*The section of the content2*/
-                                                            
+
                                                             .content2{
                                 /*                                 background:#330e63c7; */
                                                                 width:100%;
@@ -7152,9 +7184,9 @@ footer{
                                                                 padding-left:0px;
                                                                 transition:none;
                                                                 padding-top:0px;
-                                                                
+
                                                             }
-                                
+
                                                             .two{
                                                                 border-radius:25px;
                                                                 width:80%;
@@ -7164,10 +7196,10 @@ footer{
                                                                 margin-top:0px;
                                                                 border:2px dashed yellow
                                                             }
-                                                            
-                                                            
+
+
                                                             /*The section of the content3*/
-                                                            
+
                                                             .content3{
                                                                 background:#330e6378;
                                                                 width:100%;
@@ -7178,9 +7210,9 @@ footer{
                                                                 padding-left:0px;
                                                                 transition:none;
                                                                 padding-top:0px;
-                                                                
+
                                                             }
-                                
+
                                                             .three{
                                                                 border-radius:25px;
                                                                 width:80%;
@@ -7190,10 +7222,10 @@ footer{
                                                                 margin-top:0px;
                                                                 border:2px dashed yellow
                                                             }
-                                                            
-                                                            
+
+
                                                             /*The section of the content4*/
-                                                            
+
                                                             .content4{
                                                                 background:#330e6378;
                                                                 width:100%;
@@ -7204,9 +7236,9 @@ footer{
                                                                 padding-left:0px;
                                                                 transition:none;
                                                                 padding-top:0px;
-                                                                
+
                                                             }
-                                
+
                                                             .four{
                                                                 border-radius:25px;
                                                                 width:80%;
@@ -7216,15 +7248,15 @@ footer{
                                                                 margin-top:0px;
                                                                 border:2px dashed yellow
                                                             }
-                                                            
-                                                            
+
+
                                                             .one .fa-compass{
                                                                 color:white;
                                                                 font-size:60px;
                                                                 margin:20px 0 0 100px;
                                                                 text-shadow:1px 1px yellow;
                                                             }
-                                                            
+
                                                             .one h3{
                                                                 color:white;
                                                                 font-size:33px;
@@ -7234,15 +7266,15 @@ footer{
                                                                 margin-bottom:10px;
                                                                 text-shadow:3px 3px #330e63eb;
                                                             }
-                                                            
+
                                                             .one p{
                                                                 color:white;
                                                                 text-align:center;
                                                                 font-family: 'Allura';
                                                                 font-size:20px;
-                                                                
+
                                                             }
-                                                            
+
                                                             .two .fa-comments-o{
                                                                 color:white;
                                                                 font-size:60px;
@@ -7263,9 +7295,9 @@ footer{
                                                                 text-align:center;
                                                                 font-family: 'Allura';
                                                                 font-size:20px;
-                                                                
+
                                                             }
-                                                            
+
                                                             .three .fa-clock-o{
                                                                 color:white;
                                                                 font-size:60px;
@@ -7286,17 +7318,17 @@ footer{
                                                                 text-align:center;
                                                                 font-family: 'Allura';
                                                                 font-size:20px;
-                                                                
+
                                                             }
-                                                            
-                                                            
+
+
                                                             .four .fa-gift{
                                                                 color:white;
                                                                 font-size:60px;
                                                                 margin:20px 0 0 100px;
                                                                 text-shadow:1px 1px yellow;
                                                             }
-                                                            
+
                                                             .four h3{
                                                               color:white;
                                                                 font-size:33px;
@@ -7306,27 +7338,27 @@ footer{
                                                                 margin-bottom:10px;
                                                                 text-shadow:3px 3px #330e63eb;
                                                             }
-                                                            
+
                                                             .four p{
                                                                 color:white;
                                                                 text-align:center;
                                                                 font-family: 'Allura';
-                                                                font-size:20px;   
+                                                                font-size:20px;
                                                             }
-                                                            
-                                                            
-                                                            
+
+
+
                                                             /*The section of the content5*/
-                                                            
+
                                                             .content5{
                                                                 background:#330e63eb;
                                                                 width:100%;
                                                                 float:left;
                                                                 height:350px;
-                                                            
+                                                                position:relative;
                                                                 margin-top:0px;
                                                             }
-                                                            
+
                                                             .content5 h1{
                                                                 text-align:center;
                                                                 color:#b51474fc;
@@ -7359,9 +7391,9 @@ footer{
                                                                 font-size:55px;
                                                                 border-radius:55px;
                                                                 box-shadow:0 0 20px yellow,0 0 40px yellow,0 0 80px yellow,0 0 100px yellow;
-                                                                
+
                                                             }
-                                                            
+
                                                             #search{
                                                                 padding:10px;
                                                                 width:70%;
@@ -7376,18 +7408,18 @@ footer{
                                                             }
                                                             .fa-search{
                                                                 position:absolute;
-                                                                top:2439px;
+                                                                bottom:135px;
                                                                 right:15%;
                                                                 transform:translate(-50%,-50%);
                                                                 color:white;
                                                                 cursor:pointer;
                                                                 font-size:18px;
                                                                 text-shadow:1px 1px red;
-                                                            }                            
-                                
+                                                            }
+
                                                                                     /*The section of the class*/
-                                                            
-                                                            
+
+
                                 .class{
                                     height:700px;
                                     width:100%;
@@ -7395,19 +7427,19 @@ footer{
                                     background-position:center;
                                 /*     background-size:cover; */
                                 }
-                                
-                                
+
+
                                 /*The section of the class-o*/
-                                
+
                                 .class-o{
                                     height:700px;
                                     width:100%;
                                     background:#330e6375
                                 }
-                                
-                                
+
+
                                 /*The section of the class1*/
-                                
+
                                 .class1 p{
                                     color:yellow;
                                     line-height:58px;
@@ -7436,16 +7468,16 @@ footer{
                                     background:red;
                                     color:yellow;
                                 }
-                                
-                                
-                                
-                                 
-                                
-                                
-                                
+
+
+
+
+
+
+
                                                             /*The middle div section of the page*/
-                                                            
-                                                            
+
+
                                 .middle{
                                     width:100%;
                                     height:1600px;
@@ -7454,10 +7486,10 @@ footer{
                                 /*     background-size:cover; */
                                     background-position:center;
                                 }
-                                
-                                
+
+
                                 /*The section of the middle-o*/
-                                
+
                                 .middle-o{
                                     width:100%;
                                     height:10px;
@@ -7472,10 +7504,10 @@ footer{
                                     letter-spacing: 4px;
                                     margin-top:-10px
                                 }
-                                
-                                
+
+
                                 /*The section of the middle-left*/
-                                
+
                                 .middle-left{
                                     background:#330e6300;
                                     width:100%;
@@ -7483,9 +7515,9 @@ footer{
                                     margin-top:10px;
                                     margin-left:0px;
                                     border-bottom:1px solid yellow;
-                                    
+
                                 }
-                                
+
                                 .middle-left .one-01{
                                     width:70%;
                                     float:left;
@@ -7494,7 +7526,7 @@ footer{
                                     text-align:center;
                                     color:#330e63eb;
                                     text-shadow:2px 2px white;
-                                
+
                                 }
                                 .middle-left .join{
                                     width:30%;
@@ -7502,7 +7534,7 @@ footer{
                                     height:200px;
                                     text-transform:uppercase;
                                 }
-                                
+
                                 .middle-left .join h2{
                                     float:left;
                                     text-transform:uppercase;
@@ -7512,11 +7544,11 @@ footer{
                                     text-shadow:2px 2px red;
                                     margin-left:-110px;
                                 }
-                                
-                                
-                                
+
+
+
                                 /*The section of the middle-center*/
-                                
+
                                 .middle-center{
                                    background:#330e6300;
                                     width:100%;
@@ -7526,7 +7558,7 @@ footer{
                                     margin-left:0px;
                                     border-bottom:1px solid yellow;
                                 }
-                                
+
                                 .middle-center .one-01{
                                    width:70%;
                                     float:left;
@@ -7542,7 +7574,7 @@ footer{
                                     height:200px;
                                     text-transform:uppercase;
                                 }
-                                
+
                                 .middle-center .join h2{
                                     float:left;
                                     text-transform:uppercase;
@@ -7552,10 +7584,10 @@ footer{
                                     text-shadow:2px 2px red;
                                     margin-left:-130px;
                                 }
-                                
-                                
+
+
                                 /*The section of the middle-right*/
-                                
+
                                 .middle-right{
                                     background:#330e6300;
                                     width:100%;
@@ -7565,7 +7597,7 @@ footer{
                                     margin-bottom:40px;
                                     border-bottom:1px solid yellow;
                                 }
-                                
+
                                 .middle-right .one-01{
                                    width:70%;
                                     float:left;
@@ -7581,7 +7613,7 @@ footer{
                                     height:200px;
                                     text-transform:uppercase;
                                 }
-                                
+
                                 .middle-right .join h2{
                                     float:left;
                                     text-transform:uppercase;
@@ -7592,19 +7624,19 @@ footer{
                                     margin-left:10px;
                                     margin-left:-110px;
                                 }
-                                
-                                
-                                
-                                
-                                
+
+
+
+
+
                                                             /*The middle content section*/
-                                                            
-                                                            
+
+
                                 .middle-content{
                                     width:100%;
                                     height:1640px;
                                     background:#27036d96;
-                                
+
                                 }
                                 .middle-content .matched{
                                     color:red;
@@ -7615,8 +7647,8 @@ footer{
                                     margin-top:100px;
                                     display:none;
                                 }
-                                
-                                
+
+
                                 .middle-content0{
                                     width:95%;
                                     height:830px;
@@ -7627,7 +7659,7 @@ footer{
                                     float:left;
                                     margin-left:10px;
                                 }
-                                
+
                                 /*The middle content1*/
                                 .middle-content1{
                                     width:70%;
@@ -7638,8 +7670,8 @@ footer{
                                     margin-left:45px;
                                     border-radius:0px;
                                 }
-                                
-                                
+
+
                                 /*The middle content2*/
                                 .middle-content2{
                                     width:70%;
@@ -7650,8 +7682,8 @@ footer{
                                     margin-left:45px;
                                     border-radius:0px;
                                 }
-                                
-                                
+
+
                                 /*The middle content3*/
                                 .middle-content3{
                                     width:70%;
@@ -7662,9 +7694,9 @@ footer{
                                     margin-left:45px;
                                     border-radius:0px;
                                 }
-                                
-                                
-                                
+
+
+
                                 .middle-content1 .top{
                                     height:100px;
                                     background:#ff000057;
@@ -7686,8 +7718,8 @@ footer{
                                     font-family:amita;
                                     margin-top:-1px;
                                 }
-                                
-                                
+
+
                                 .middle-content2 .top{
                                     height:100px;
                                     background:#ff000061;
@@ -7709,8 +7741,8 @@ footer{
                                     font-family:amita;
                                     margin-top:-1px;
                                 }
-                                
-                                
+
+
                                 .middle-content3 .top{
                                     height:100px;
                                     background:#ff000061;
@@ -7732,14 +7764,14 @@ footer{
                                     font-family:amita;
                                     margin-top:-1px;
                                 }
-                                
-                                
-                                
-                                
-                                
+
+
+
+
+
                                                             /*section of the main-content*/
-                                                            
-                                                            
+
+
                                 .main-content{
                                     background:url(images/a.jpg);
                                     width:100%;
@@ -7747,10 +7779,10 @@ footer{
                                 /*     background-position:center; */
                                 /*     background-size:cover; */
                                 }
-                                
-                                
+
+
                                 /*The section of the main left*/
-                                
+
                                 .main-left{
                                     width:100%;
                                     background:#330e6375;
@@ -7778,7 +7810,7 @@ footer{
                                     font-size:10px;
                                     text-align:center;
                                 }
-                                
+
                                 .details{
                                     padding:10px;
                                     width:60%;
@@ -7798,10 +7830,10 @@ footer{
                                     color:blue;
                                     border-radius:25px;
                                 }
-                                
-                                
+
+
                                 /*The section of the main right*/
-                                
+
                                 .main-right{
                                     width:100%;
                                     height:00px;
@@ -7827,7 +7859,7 @@ footer{
                                     background:#330e63eb;
                                     color:yellow;
                                 }
-                                
+
                                 .art{
                                     background:#b51474;
                                     color:white;
@@ -7843,7 +7875,7 @@ footer{
                                     margin-top:80px;
                                     transition:all 0.5s;
                                     font-size:10px;
-                                    
+
                                 }
                                 .attraction{
                                     background:#0c6724;
@@ -7936,7 +7968,7 @@ footer{
                                     transition:all 0.5s;
                                     font-size:10px;
                                 }
-                                
+
                                 .health{
                                     background:red;
                                     color:white;
@@ -7952,12 +7984,12 @@ footer{
                                     transition:all 0.5s;
                                     font-size:10px;
                                 }
-                                
-                                
-                                
+
+
+
                                                                 /*The section of the footer*/
-                                                                
-                                
+
+
                                 footer{
                                     background:url(images/jj.jpg);
                                     background-position:center;
@@ -7966,16 +7998,16 @@ footer{
                                     height:1130px;
                                 /*     display:none; */
                                 }
-                                
-                                
-                                
+
+
+
                                 /*The section of the footer 0*/
                                 .footer0{
                                     width:100%;
                                     height:700px;
                                 }
-                                
-                                
+
+
                                 /*The section of the foot1*/
                                 .foot1{
                                     background:#330e6375;
@@ -7985,7 +8017,7 @@ footer{
                                     margin-top:0px;
                                     padding:20px;
                                 }
-                                
+
                                 .foot1 h1{
                                     color:blue;
                                     text-align:center;
@@ -7995,13 +8027,13 @@ footer{
                                     text-shadow: 1px 1px white;
                                     font-family: amita;
                                 }
-                                
+
                                 .foot1 .fa-certificate{
                                     color:rgba(193, 65, 36, 0.48);
                                     font-size:140px;
                                     margin-left:80px;
                                 }
-                                
+
                                 .foot1 p{
                                     color:white;
                                     font-family:allura;
@@ -8012,10 +8044,10 @@ footer{
                                     padding:10px;
                                     border-radius:20px;
                                 }
-                                
-                                
+
+
                                 /*The section of the foot2*/
-                                
+
                                 .foot2{
                                     background:#330e6375;
                                     width:100%;
@@ -8024,7 +8056,7 @@ footer{
                                     margin-top:0px;
                                     padding:10px;
                                 }
-                                
+
                                 .foot2 h1{
                                     color:blue;
                                     text-align:center;
@@ -8034,14 +8066,14 @@ footer{
                                     text-shadow: 1px 1px white;
                                     font-family: amita;
                                 }
-                                
+
                                 .foot2 .fa-check-square-o{
                                     color:rgba(193, 65, 36, 0.48);
                                     font-size:140px;
                                     margin-left:100px;
                                     margin-top:30px
                                 }
-                                
+
                                 .foot2 p{
                                     color:white;
                                     font-family:allura;
@@ -8052,10 +8084,10 @@ footer{
                                     background:#27036d9e;
                                     height:160px
                                 }
-                                
-                                
+
+
                                 /*The section of the foot3*/
-                                
+
                                 .foot3{
                                     background:#330e6375;
                                     width:100%;
@@ -8086,17 +8118,18 @@ footer{
                                     background:#27036d9e;
                                     border-radius:20px;
                                     height:140px
-                                    
+
                                 }
-                                
-                                
+
+
                                 /*The section of the footer 1 2 3*/
-                                
+
                                 .footer1{
                                     width:100%;
                                     height:430px;
                                     background:#1e053eeb;
                                     border-bottom:5px solid blue;
+                                    position:relative;
                                 }
                                 .footer2{
                                     width:100%;
@@ -8111,7 +8144,7 @@ footer{
                                     background:#1e053eeb;
                                     display:none;
                                 }
-                                
+
                                 .footer1 h1{
                                     color:white;
                                     text-align:center;
@@ -8141,22 +8174,23 @@ footer{
                                     margin-top:30px;
                                     width:80%;
                                 }
-                                
+
                                 .footer1 input[type=button]{
                                     background:green;
                                     color:yellow;
-                                    padding:6px;
+                                    padding:7px;
                                     border:1px solid yellow;
                                     border-radius:25px;
                                     position:absolute;
-                                    top:6899px;
+                                    bottom:68px;
                                     left:59%;
                                     width:30%;
                                     font-weight:bold;
                                     text-transform:uppercase;
                                     outline:none;
                                     cursor:pointer;
-                                    
+                                    font-size:10px;
+
                                 }
                                 .footer1 .find{
                                     font-size:13px;
@@ -8171,9 +8205,9 @@ footer{
                                     color:yellow;
                                     margin-top:10px;
                                 }
-                                
-                                
-                                
+
+
+
                                 /*section of the footer 2 h1*/
                                 .footer2 h1{
                                     text-align:center;
@@ -8183,7 +8217,7 @@ footer{
                                     margin-top:30px;
                                     text-shadow:2px 2px red;
                                 }
-                                
+
                                 .footer2 ul{
                                     list-style-type: none;
                                     overflow:auto;
@@ -8223,7 +8257,7 @@ footer{
                                     padding:5px 7px;
                                     border-radius:50%;
                                 }
-                                
+
                                 .footer2 .i{
                                     color:red;
                                     letter-spacing:10px;
@@ -8231,17 +8265,18 @@ footer{
                                     font-size:15px;
                                     margin-top:50px;
                                 }
-                                
+
                                 .footer2 .layo{
                                     color:white;
                                     text-align:center;
                                     font-size:13px;
                                     margin-top:20px;
                                     font-family:amita;
+                                    margin-right:0;
                                 }
-                                                                } 
-                                                                
-                                                                
+                                                                }
+
+
     @media screen and (min-width:769px) and (max-width:1352px){
         #container{
             display:none;
