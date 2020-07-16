@@ -12375,7 +12375,7 @@ footer{
                             }
                             .content5 h2{
                                 text-align:center;
-                                color:green;
+                                color:white;
                                 font-size:35px;
                                 font-family:amita;
                                 text-shadow:3px 2px #b51474fc;
@@ -12413,7 +12413,7 @@ footer{
                             }
                             .fa-search{
                                 position:absolute;
-                                bottom:104px;
+                                bottom:108px;
                                 right:15%;
                                 transform:translate(-50%,-50%);
                                 color:white;
@@ -14952,9 +14952,3 @@ footer{
                                 }
                                                                 }
 
-
-/*     @media screen and (min-width:769px) and (max-width:1352px){
-        #container{
-            display:none;
-        }
-    } */
