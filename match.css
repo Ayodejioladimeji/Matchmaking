@@ -326,7 +326,7 @@ header{
 }
 .fa-eye{
     position:absolute;
-    bottom:44%;
+    bottom:45.5%;
     right:10%;
     color:white;
 }
@@ -425,7 +425,6 @@ header{
 }
 
 #panel {
-  display: none;
   color:white;
 }
 
@@ -714,8 +713,9 @@ input[type=submit]{
 .one .fa-compass{
     color:white;
     font-size:70px;
-    margin:40px 0 0 110px;
+    margin:auto;
     text-shadow:1px 1px yellow;
+    margin-top:30px;
 }
 .one h3{
     color:white;
@@ -738,8 +738,9 @@ input[type=submit]{
 .two .fa-comments-o{
     color:white;
     font-size:65px;
-    margin:40px 0 0 110px;
+    margin:auto;
     text-shadow:1px 1px yellow;
+    margin-top:30px;
 }
 .two h3{
     color:white;
@@ -762,8 +763,9 @@ input[type=submit]{
 .three .fa-clock-o{
     color:white;
     font-size:65px;
-    margin:43px 0 0 110px;
+    margin:auto;
     text-shadow:1px 1px yellow;
+    margin-top:30px;
 }
 .three h3{
     color:white;
@@ -787,8 +789,9 @@ input[type=submit]{
 .four .fa-gift{
     color:white;
     font-size:65px;
-    margin:43px 0 0 110px;
+    margin:auto;
     text-shadow:1px 1px yellow;
+    margin-top:30px;
 }
 .four h3{
     color:white;
@@ -1076,7 +1079,7 @@ input[type=submit]{
     border-radius:150px;
     width:150px;
     height:150px;
-    margin-left:85px;
+    margin:auto;
     margin-top:-80px;
     border:2px solid yellow;
 }
@@ -1099,7 +1102,7 @@ input[type=submit]{
     border-radius:150px;
     width:150px;
     height:150px;
-    margin-left:85px;
+    margin:auto;
     margin-top:-80px;
     border:2px solid yellow;
 }
@@ -1122,7 +1125,7 @@ input[type=submit]{
     border-radius:150px;
     width:150px;
     height:150px;
-    margin-left:85px;
+    margin:auto;
     margin-top:-80px;
     border:2px solid yellow;
 }
@@ -1171,7 +1174,7 @@ input[type=submit]{
 .fa-registered{
     color:yellow;
     font-size:60px;
-    margin-left:240px;
+    margin:auto;
     text-shadow:1px 2px red;
 }
 .main-left p{
@@ -2076,7 +2079,6 @@ header{
 }
 
 #panel {
-  display: none;
   color:white;
 }
 
@@ -3741,7 +3743,7 @@ footer{
                             }
 
                             #panel {
-                              display: none;
+
                               color:white;
                             }
 
@@ -5403,7 +5405,7 @@ footer{
                             }
 
                             #panel {
-                              display: none;
+
                               color:white;
                             }
 
@@ -7068,7 +7070,7 @@ footer{
                             }
 
                             #panel {
-                              display: none;
+
                               color:white;
                             }
 
@@ -8734,7 +8736,7 @@ footer{
                             }
 
                             #panel {
-                              display: none;
+
                               color:white;
                             }
 
@@ -10397,7 +10399,7 @@ footer{
                             }
 
                             #panel {
-                              display: none;
+/*                               display: none; */
                               color:white;
                             }
 
@@ -12052,7 +12054,7 @@ footer{
                             }
 
                             #panel {
-                              display: none;
+/*                               display: none; */
                               color:white;
                             }
 
@@ -13720,7 +13722,7 @@ footer{
                                                             }
 
                                                             #panel {
-                                                              display: none;
+/*                                                               display: none; */
                                                               color:white;
                                                             }
 
