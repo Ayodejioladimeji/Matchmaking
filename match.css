@@ -682,7 +682,7 @@ input[type=submit]{
     /*line-height:50px;*/
 }
 .content5 .span{
-    margin-left:650px;
+    margin:auto;
     font-size:55px;
     border-radius:55px;
     box-shadow:0 0 20px yellow,0 0 40px yellow,0 0 80px yellow,0 0 100px yellow;
