@@ -11960,6 +11960,7 @@ footer{
 
                             .main{
                                 background:url(images/aa.jpg);
+
                                 background-size:cover;
                                 background-position:center;
                                 width:100%;
@@ -12374,7 +12375,7 @@ footer{
                             }
                             .content5 h2{
                                 text-align:center;
-                                color:white;
+                                color:green;
                                 font-size:35px;
                                 font-family:amita;
                                 text-shadow:3px 2px #b51474fc;
